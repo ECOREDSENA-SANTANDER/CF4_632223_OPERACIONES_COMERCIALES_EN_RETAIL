@@ -2,21 +2,21 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 32%
-    right: 58%
-    width: 140px
+    top: 30%
+    right: 80%
+    width: 170px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 71%
-    right: 22%
-    width: 140px
+    top: 18%
+    right: 32%
+    width: 170px
   &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 12%
-    width: 140px
+    top: 74%
+    right: 38%
+    width: 170px
 
 
 @keyframes float1
@@ -39,9 +39,9 @@
 
   figure, picture, img, svg 
     margin: 26px
-    width: 61%
-    float: right
-    margin-left: 15px
+    width: 47%
+    float: left
+    margin-left: 180px
     
 .banner-principal__componente 
   margin-bottom: 50px
@@ -62,5 +62,122 @@
   height: 5px
   width: 140px
   border-left: solid 50px
-  border-left-color: #3AE3FE
+  border-left-color: #FF725D
   background-color: #e8e8e8
+
+
+// subtitulos
+
+.icon 
+  max-width: 35px
+  left: 65px
+  position: absolute
+
+.bg-img-blue
+  padding: 14px
+  background-color: #0D66BF
+  border-radius: 0px 0px 50px 0px
+
+// fondos y bordes
+
+.borde-redondo
+  border-radius: 25px
+
+.borde-redondo-abajo
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+
+.borde-redondo-arriba
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+
+.cajon.color-acento-contenido
+  background-color: #ffe3de
+
+.cajon.color-primario
+  background-color: #d4eefb
+
+.bgazul
+  background-color: #0D66BF
+
+.bgazulclaro
+  background-color: #d4eefb
+
+.bgrosado  
+  background-color:#ffd4ce
+  
+// Slyder F boton tema1
+
+.fa-chevron-right:before 
+    content: url('../assets/curso/temas/tema1/der.svg')
+
+.fa-chevron-left:before 
+    content: url('../assets/curso/temas/tema1/izq.svg')
+
+// slyder tema 1
+
+.fondo1
+  background: url('../assets/curso/temas/fondo1.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.tarjetaf
+  background-color: #fff
+  border-radius: 15px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 50px
+  height: 50px
+  background-color: #FFDC39
+  border-radius: 50%
+  color: #0D66BF
+
+.slyder-a__bullets__item
+    background-color: #D2E1F1
+    border-color: #D2E1F1
+
+.slyder-a__bullets__item--active 
+    background-color: #0D66BF
+    border-color: #727997
+    opacity: 1
+
+// acordeon tipo A tema 1
+
+.fa-plus:before 
+    content: "\f067"
+    color: #0D66BF
+
+.fa-minus:before 
+    content: "\f068"
+    color: #0D66BF
+
+.acordion__accion__btn--a
+  background-color: #FFDC39
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azul
+  background-color: #FF725D
+
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #FFE3DE
+
+//viñetas
+  
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 20px
+      font-size: 1.4rem
+
+.lista-ol--cuadro__vineta 
+  background-color: #53BCED !important
+  color: black !important
+
+.lista-ol--cuadro__vineta.acento-contenido 
+  background-color: #FF725D !important
