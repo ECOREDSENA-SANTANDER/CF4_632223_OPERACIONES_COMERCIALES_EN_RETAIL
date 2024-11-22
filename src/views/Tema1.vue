@@ -221,9 +221,9 @@
     p.mb-4 Los siguientes son los dos tipos de promoción:
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-3
+      .col-lg-3.col-md-5.col-5
         img(src='@/assets/curso/temas/tema1/img3.png', alt='')
-      .col-lg-9
+      .col-lg-9.col-md-12.col-sm-12
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Promoción de ventas")
             .row.justify-content-center.align-items-center
@@ -261,15 +261,15 @@
     p Si la empresa quiere lograr el éxito con la promoción se necesita tener en cuenta los siguientes ítems:
 
     .row.mb-3
-        .col-md.tarjeta.bgazulclaro.p-4.mx-2.borde-redondo
-          .row.align-items-center.justify-content-center.borde-redondo
+        .col-md.tarjeta--boton.tema1.p-4.mx-2
+          .row.align-items-center.justify-content-center
             .col-lg-3.col-md-5.col-5
               img(src='@/assets/curso/temas/tema1/tar3-1.png', alt='')     
             .col-lg-8.col-md-12.col-sm-12.p-1
               h4 Originalidad. 
               p Se requiere del aporte de cierta dosis de novedad e incluso innovación en cuanto a promoción se refiere, porque de lo contrario una marca puede pasar desapercibida.
-        .col-md.tarjeta.bgazulclaro.p-4.mx-2.borde-redondo
-          .row.align-items-center.justify-content-center.borde-redondo
+        .col-md.tarjeta--boton.tema1.p-4.mx-2
+          .row.align-items-center.justify-content-center
             .col-lg-3.col-md-5.col-5
               img.mt-3(src='@/assets/curso/temas/tema1/tar3-2.png', alt='')     
             .col-lg-8.col-md-12.col-sm-12.p-1
@@ -277,15 +277,15 @@
               p Saber a quién se va a dirigir la promoción, porque de esta forma puede tener una respuesta más positiva por parte de este público.
 
     .row.mb-3
-        .col-md.tarjeta.bgazulclaro.p-4.mx-2.borde-redondo
-          .row.align-items-center.justify-content-center.borde-redondo
+        .col-md.tarjeta--boton.tema1.p-4.mx-2
+          .row.align-items-center.justify-content-center
             .col-lg-3.col-md-5.col-5
               img(src='@/assets/curso/temas/tema1/tar3-3.png', alt='')     
             .col-lg-8.col-md-12.col-sm-12.p-1
               h4 Incentivo #[em ad hoc.] 
               p Sin importar cuál sea la promoción, debe estar orientada a su público. Debe ser de valor para el cliente y debe tener un aliciente que motive una compra.
-        .col-md.tarjeta.bgazulclaro.p-4.mx-2.borde-redondo
-          .row.align-items-center.justify-content-center.borde-redondo
+        .col-md.tarjeta--boton.tema1.p-4.mx-2
+          .row.align-items-center.justify-content-center
             .col-lg-3.col-md-5.col-5
               img.mt-3(src='@/assets/curso/temas/tema1/tar3-4.png', alt='')     
             .col-lg-8.col-md-12.col-sm-12.p-1
@@ -293,15 +293,15 @@
               p Se debe pensar en qué fechas realizar las promociones, especialmente en los momentos en que la marca vende menos productos.
 
     .row.mb-5
-        .col-md.tarjeta.bgazulclaro.p-4.mx-2.borde-redondo
-          .row.align-items-center.justify-content-center.borde-redondo
+        .col-md.tarjeta--boton.tema1.p-4.mx-2
+          .row.align-items-center.justify-content-center
             .col-lg-3.col-md-5.col-5
               img.mt-5(src='@/assets/curso/temas/tema1/tar3-5.png', alt='')     
             .col-lg-8.col-md-12.col-sm-12.p-1
               h4.mt-5 Mix promocional
               p El plan promocional debe contener una diversidad de incentivos y estrategias que vayan impactando al cliente poco a poco.
-        .col-md.tarjeta.bgazulclaro.p-4.mx-2.borde-redondo
-          .row.align-items-center.justify-content-center.borde-redondo
+        .col-md.tarjeta--boton.tema1.p-4.mx-2
+          .row.align-items-center.justify-content-center
             .col-lg-3.col-md-5.col-5
               img(src='@/assets/curso/temas/tema1/tar3-6.png', alt='')     
             .col-lg-8.col-md-12.col-sm-12.p-1
@@ -375,6 +375,115 @@
       .col-lg-8.col-md-12.col-sm-12
         .cajon.color-primario.p-4.mb-4
           p Para terminar este apartado, se debe tener en cuenta que los productos que se promocionan deben tener la misma calidad y deben ser iguales a los que se ven en la publicidad, los tiempos de entrega deben ser mínimos, cuando se habla de entrega a domicilio; es necesario cumplir con todo lo que  se informa en la promoción (Burin, 2017).
+
+    separador
+    #t_1_4.titulo-segundo.mb-5
+      h2 1.4 Evento promocional
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-8.col-md-12.col-sm-12
+        p.mb-4 Son una parte vital de las estrategias de comunicación de las empresas. La marca apela al evento cuando tiene algo que notificar. No se trata solo de lanzar un mensaje a los clientes, se trata de la transmisión de los valores de la marca y siendo capaces de envolverlo en un entorno creativo , donde se pueda transmitir experiencias y emociones significativas.
+        .cajon.color-primario.p-4.mb-4
+          p #[b Un evento debe ser capaz de causar el interés por parte de los medios de comunicación (a los cuales se les debe invitar para que estén presentes y luego puedan hacer un #[em Free Press], informando sobre lo ocurrido), así como también debe impactar a los clientes y público presente. Y lo más importante, la idea es lograr la fidelización de los clientes.] 
+        p Un buen evento no solo sirve para transferir mensajes a los presentes, sino que, además, puede segmentar para captar la atención de un conjunto determinado de personas, o incluso de transmitir a los presentes una serie de valores, pasando de una simple información a la generación de emociones y sensaciones, lo que es otra forma de transferencia de los objetivos de un evento. 
+      .col-lg-4.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema1/img5.png', alt='')
+
+    .row.mb-4
+      p Los eventos #[b pueden captar la atención del cliente de manera directa y duradera, creando una relación amena y confiable.] La experiencia significativa de un evento genera un recuerdo positivo más intenso y perdurable que otros medios de comunicación. Un evento es un acto en directo y único, que reúne al emisor y al receptor en el mismo lugar, dirigido a un público específico, diseñado a medida para crear respuestas y actitudes positivas en los clientes. #[b Es una herramienta de comunicación efectiva para visibilizar la marca y notificar experiencias a través de un acto en vivo.]
+      p Para que el evento promocional sea exitoso, debe cumplir con los objetivos previstos: 
+
+
+    .row.mb-4(data-aos="fade-down")
+      .col-lg-4.col-md-12.col-12
+        .tarjeta-avatar.conhover
+          img.mt-2(src='@/assets/curso/temas/tema1/tar4-1.png' alt='')
+          .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
+            .tarjeta--boton.tema1
+              .p-4
+                p.mb-4.mt-5.text-center #[b El mensaje debe llegar sin ninguna confusión.]
+      .col-lg-4.col-md-12.col-12
+        .tarjeta-avatar
+          img.mt-2(src='@/assets/curso/temas/tema1/tar4-2.png' alt='')
+          .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
+            .tarjeta--boton.tema1
+              .p-4
+                p.mb-5.mt-5.text-center #[b Debe ser claro y entendible.]
+      .col-lg-4.col-md-12.col-12
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/tar4-3.png' alt='')
+          .row.justify-content-center.align-items-center.mt-5.mx-1
+            .tarjeta--boton.tema1
+              .p-4
+                p.mb-4.text-center.mt-4 #[b Y el medio para transmitirlo debe ser coherente con lo que se quiere informar y con la forma en que se va a comunicar.]
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8.col-md-12.col-sm-12
+        .mb-4.d-flex.ps-lg-0
+          .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+            h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Clasificación y tipología
+            img.icon(src='@/assets/curso/temas/icon.svg') 
+        p.mt-5 El  objetivo de un evento debe definir su tipología, mientras que su formato es el medio o canal utilizado para llevarlo a cabo.
+        p Por ejemplo, los eventos de motivación pueden realizarse mediante #[em networking], viajes de incentivos o convenciones. Los eventos de posicionamiento de marca pueden llevarse a cabo a través de acciones callejeras, #[em marketing] de guerrilla, #[em roadshows, happenings, marketing] ambiental o eventos promocionales. Los eventos institucionales pueden utilizar formatos clásicos como presentaciones empresariales, patrocinios de otros eventos o juntas de accionistas. Además, los eventos relacionales y co-participativos pueden organizarse mediante desayunos, almuerzos, #[em focus groups], cocreación, entre otros.
+        p Así, se pueden explorar muchas más modalidades de eventos que pueden ser consideradas en las estrategias patrocinadas por una marca.
+        p Pueden diferenciarse en dos grandes bloques: 
+      .col-lg-4.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema1/img6.png', alt='')
+
+    .row.mb-4
+      .col-12
+        .tarjeta-avatar-b.correr
+          .tarjeta-avatar-b__img.nueva
+            img(src='@/assets/curso/temas/tema1/1.png' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-3
+              p.mt-1 #[b Eventos de proyección externa.] Dirigidos a un público ajeno a la empresa. Se caracterizan por una mayor superficialidad en los mensajes, ya que van dirigidos a un público muy heterogéneo. Su finalidad puede ser muy diversa: institucional, de posicionamiento, de motivación (de agentes externos), promocionales, formación, etc. La siguiente clasificación son tipos de eventos externos:
+
+
+    .row.mb-4
+      .col-12
+        .tarjeta-avatar-b.correr
+          .tarjeta-avatar-b__img.nueva
+            img(src='@/assets/curso/temas/tema1/2.png' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-3
+              p.mt-1 #[b Eventos internos.] Hacia dentro de la empresa, dirigido al personal de esta o público vinculado de forma muy estrecha, principalmente eventos de formación, motivación e incentivo. La siguiente clasificación son tipos de eventos internos:
+
+
+    .row.mb-4
+      p Todos estos son eventos que se diseñan sobre un núcleo comunicacional en el que se debe tener claro qué se quiere obtener con el evento, qué es lo que se quiere informar, a quién se le quiere comunicar y con qué finalidad. Los eventos están encaminados hacia la obtención de logros y resultados que sean positivos para la empresa; se deben planear y programar con antelación, por ello hacen parte de los presupuestos anuales de la empresa y están consignados en los planes de mercadeo. 
+      p Sin  embargo, un evento puede adoptar diferentes formatos y contemplar diversas actividades. Por lo tanto, existen clasificaciones adicionales basadas en los objetivos de los eventos, dentro de las cuales se pueden identificar los formatos que se explican en el siguiente video:
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.col-md-12.col-sm-12
+        figure
+          .video
+            iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/D4auvvW4wXQ?si=SrgdxB6ZJhs-q1Dd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video: Tipos de formatos para eventos.
+
+    separador
+    #t_1_5.titulo-segundo.mb-5
+      h2 1.5 El #[em stand]
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6.col-md-12.col-sm-12
+        p La participación por parte de la empresa en eventos y congresos es rentable a la hora de enlazar con otros profesionales, #[b destacarse sobre la competencia e incluso captar clientes nuevos.] Y en ese sentido es muy importante conocer qué tipos de estanterías hay en el mercado para elegir la que mejor se acomode a la empresa. 
+      .col-lg-4.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema1/img7.png', alt='')
+
+    .mb-4.d-flex.ps-lg-0
+      .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Tipos de stand
+        img.icon(src='@/assets/curso/temas/icon.svg') 
+    p.mb-4 Lo positivo de los stands es que su #[b diseño puede ser tan versátil como la creatividad de los diseñadores.] A continuación, se presentan los tipos de stands:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.col-md-12.col-sm-12
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video: Leyenda del video
 
 
 

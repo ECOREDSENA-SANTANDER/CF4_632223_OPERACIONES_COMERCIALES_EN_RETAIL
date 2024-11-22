@@ -78,6 +78,11 @@
   background-color: #0D66BF
   border-radius: 0px 0px 50px 0px
 
+// tamaños imagenes
+
+.img1
+  width: 90px
+
 // fondos y bordes
 
 .borde-redondo
@@ -145,6 +150,36 @@
     border-color: #727997
     opacity: 1
 
+// para que los botones no se estiren en mobile
+
+.slyder-a__bullets__item--active 
+
+@media (max-width: 768px) 
+    .slyder-a__bullets__item 
+        width: 11px
+        height: 11px
+        margin: 0px 0.5px
+
+@media (max-width: 768px)  
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 30px
+    height: 30px
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 50px
+    height: 50px
+    background-color: #FFD947
+    border-radius: 50%
+    background-repeat: no-repeat
+    background-size: 16px 24px
+    background-position: center
+    border: 1px solid #D8ECFF
+    z-index: 10000
+    opacity: 0.7
+    box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+    transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+    cursor: pointer
+
 // acordeon tipo A tema 1
 
 .fa-plus:before 
@@ -181,3 +216,21 @@
 
 .lista-ol--cuadro__vineta.acento-contenido 
   background-color: #FF725D !important
+
+// tarjetas botones tema 1
+
+.tarjeta--boton.tema1
+  background-color: #d4eefb
+  border-radius: 10px
+
+.tarjeta--boton.tema1:active, .tarjeta--boton.tema1:focus, .tarjeta--boton.tema1:hover 
+  background-color: #ffd4ce
+
+// tajeta avatar con numero 1 y 2 tema 1
+
+.tarjeta-avatar-b__img.nueva
+  min-width: 8% !important
+
+.tarjeta-avatar-b.correr .tarjeta
+    margin-left: -3% !important
+    padding-left: 3% !important
