@@ -43,27 +43,28 @@
       .col-lg-4.col-md-8.col-8
         img(src='@/assets/curso/temas/tema1/img1.png', alt='')
 
-    p Con el fin de diferenciar la PLV de otras estrategias se hace necesario considerar lo siguiente:
+    p.mb-4 Con el fin de diferenciar la PLV de otras estrategias se hace necesario considerar lo siguiente:
 
-    .row.justify-content-center.align-items-center.mb-2
-      .col-lg-5.col-md-12.col-12.p-2
-        img(src='@/assets/curso/temas/tema1/tar1-1.png', alt='')
-      .col-lg-5.col-md-12.col-12.p-2.borde-redondo.bgazul
-        .row.p-3
-          .row.align-items-center.justify-content-center
-            .col-lg-3.col-md-3.col-5
-              img.mt-5(src='@/assets/curso/temas/tema1/ico1.png', alt='')
-          p.text-center.text-white.mt-5.mb-5 Se refiere a las estrategias y acciones desarrolladas por el anunciante que mercadea sus productos en el interior del establecimiento, donde exhibe su material (PLV). Por lo tanto, el material que usa el establecimiento para la señalización de los productos no, se puede considerar (PLV).
-
-    .row.justify-content-center.align-items-center
-      .col-lg-5.col-md-12.col-12.p-2.borde-redondo.bgazul
-        .row.p-4
-          .row.align-items-center.justify-content-center
-            .col-lg-3.col-md-3.col-5
-              img.mt-5.mb-2(src='@/assets/curso/temas/tema1/ico1.png', alt='')
-          p.text-center.text-white.mt-5.mb-5 Su función es la transmisión de mensajes persuasivos que cautiven a las personas que se encuentran en el establecimiento. No confundir con diseño de envases y empaques o con #[em merchandising].
-      .col-lg-5.col-md-12.col-12.p-2
-        img(src='@/assets/curso/temas/tema1/tar1-2.png', alt='')
+    .row.justify-content-center(data-aos="fade-down") 
+      .col-sm-6.col-xl-5.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .row.justify-content-center.align-items-center
+                .col-4
+                  img.mb-4(src='@/assets/curso/temas/tema1/ico1.png', alt='tema1')
+              p.text-center.text-white Su función es la transmisión de mensajes persuasivos que cautiven a las personas que se encuentran en el establecimiento. No confundir con diseño de envases y empaques o con #[em merchandising].
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tar1-1.png')})`}")
+      .col-sm-6.col-xl-5.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              .row.justify-content-center.align-items-center
+                .col-4
+                  img.mb-4(src='@/assets/curso/temas/tema1/ico1.png', alt='tema1')
+              p.text-center.text-white Se refiere a las estrategias y acciones desarrolladas por el anunciante que mercadea sus productos en el interior del establecimiento, donde exhibe su material (PLV). Por lo tanto, el material que usa el establecimiento para la señalización de los productos no, se puede considerar (PLV). 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tar1-2.png')})`}")
 
     separador
     #t_1_1.titulo-segundo.mb-5
@@ -187,31 +188,31 @@
         
         .tarjetaf.p-3.mb-4
           SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
-            .row.justify-content-center.justify-content-center.p-4
+            .row.justify-content-center.align-items-center.p-4
               .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Eventos
                 p.mb-4 Son herramientas que sirven de forma estratégica para una promoción e información de gran valor y que posee características propias y diferentes. Es un acto de comunicación motivado por la necesidad de transmitir un mensaje específico a un público determinado y limitado en cuanto al número. 
               .col-lg-4.col-md-6.col-9
                 img(src="@/assets/curso/temas/tema1/sly2-1.png")
-            .row.justify-content-center.justify-content-center.p-4
+            .row.justify-content-center.align-items-center.p-4
               .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Concursos
                 p.mb-4 Es una de las técnicas más usadas y aún hoy continúa entregando grandes resultados a las empresas, porque, por lo general, requiere de una activa participación de las personas concursantes.  
               .col-lg-4.col-md-6.col-9
                 img(src="@/assets/curso/temas/tema1/sly2-2.png")
-            .row.justify-content-center.justify-content-center.p-4
+            .row.justify-content-center.align-items-center.p-4
               .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Programas de fidelización #[em focus costumer]
                 p.mb-4 En la actualidad el cliente es el eje central de toda estrategia comercial, por eso, bajo el apelativo de #[em marketing] relacional, esta actividad ha estado en crecimiento. Se trata de una estrategia de mercadeo que se establece por una marca con el objetivo de premiar el comportamiento de compra de los clientes, generando un sentido de lealtad y pertenencia hacia la marca. 
               .col-lg-4.col-md-6.col-9
                 img(src="@/assets/curso/temas/tema1/sly2-3.png")
-            .row.justify-content-center.justify-content-center.p-4
+            .row.justify-content-center.align-items-center.p-4
               .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Promociones económicas
                 p.mb-4 Se refiere a todas aquellas promociones que tienen un premio económico como por ejemplo un #[b descuento, rebajas, ofertas, 2x1, productos gratis, cupones con descuento, etc.]
               .col-lg-4.col-md-6.col-9
                 img(src="@/assets/curso/temas/tema1/sly2-4.png")
-            .row.justify-content-center.justify-content-center.p-4
+            .row.justify-content-center.align-items-center.p-4
               .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Promociones del producto
                 p.mb-4 Se refiere a la técnica llamada #[em sampling], es decir, la distribución de muestras gratuitas de un producto para captar nuevos clientes. Puede existir una mayor entrega de productos por el mismo precio, tener degustaciones e incluso regalos de producto.
@@ -396,7 +397,7 @@
 
     .row.mb-4(data-aos="fade-down")
       .col-lg-4.col-md-12.col-12
-        .tarjeta-avatar.conhover
+        .tarjeta-avatar
           img.mt-2(src='@/assets/curso/temas/tema1/tar4-1.png' alt='')
           .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
             .tarjeta--boton.tema1
@@ -439,6 +440,31 @@
             .p-3
               p.mt-1 #[b Eventos de proyección externa.] Dirigidos a un público ajeno a la empresa. Se caracterizan por una mayor superficialidad en los mensajes, ya que van dirigidos a un público muy heterogéneo. Su finalidad puede ser muy diversa: institucional, de posicionamiento, de motivación (de agentes externos), promocionales, formación, etc. La siguiente clasificación son tipos de eventos externos:
 
+    TabsC.color-primario.mb-5(data-aos="zoom-in-left")
+      .py-3.py-md-5(titulo="<i>Roadshows</i>")
+        .row.justify-content-center
+          .col-lg-3.col-md-5.col-5.mb-4
+            img(src='@/assets/curso/temas/tema1/tab1-1.png', alt='')
+          .col-lg-7.col-md-12.col-sm-12
+            p Evento itinerante que va a permitir una mejor visibilidad de marca mediante una acción de marketing, que se fundamenta en el entretenimiento, y que se puede llevar a cabo en diferentes zonas geográficas, todo con el objetivo de promocionar la marca en estos lugares atrayendo de esta forma más clientes.Los tapones son el tipo de cierre por excelencia. Se encuentran en una amplia variedad de envases, como botellas, frascos, viales y tarros. Esta categoría es muy diversa y comprende numerosos tipos de cierres.
+      .py-3.py-md-4.px-3(titulo="Aniversarios de empresa")
+        .row.justify-content-center
+          .col-lg-3.col-md-5.col-5.mb-4
+            img(src='@/assets/curso/temas/tema1/tab1-2.png', alt='')
+          .col-lg-7.col-md-12.col-sm-12
+            p Son un excelente momento para festejar, aprovechando la ocasión para la creación de un evento especial con los empleados, y por qué no, con los clientes. Con el paso del tiempo este tipo de eventos se han ido transformando hasta ser considerados como vitales para la empresa, porque un aniversario es un momento que debe ser cuidado y medido al milímetro y donde existe la oportunidad para lograr un mejoramiento en la imagen de la marca proyectándose hacia el exterior como una empresa afianzada en el mercado. Se puede aprovechar para atraer nuevos clientes, fidelizar a los existentes y mejorar el conocimiento de la marca.
+      .py-3.py-md-4.px-3(titulo="Ruedas de prensa")
+        .row.justify-content-center
+          .col-lg-3.col-md-5.col-5.mb-4
+            img(src='@/assets/curso/temas/tema1/tab1-3.png', alt='')
+          .col-lg-7.col-md-12.col-sm-12
+            p Convocatoria que efectúa una marca para reunir a los medios de comunicación para informarles sobre algo de interés. También se les conoce como conferencia de prensa y consiste en invitar a los periodistas a un mismo lugar de tal forma que tengan la información suministrada por la empresa de manera simultánea, con el fin de que los puedan reproducir en los periódicos, revistas, programas de televisión o radio, e incluso en medios digitales a través de #[em internet], como #[em blogs] y sitios #[em web]. Por lo general se elige un espacio amplio y cómodo por fuera de la empresa como un auditorio o un teatro, aunque hay marcas que deciden hacerlo internamente, porque tienen espacios capacitados para poderlo realizar al interior de sus oficinas.
+      .py-3.py-md-4.px-3(titulo="Lanzamiento de productos")
+        .row.justify-content-center
+          .col-lg-3.col-md-5.col-5.mb-4
+            img(src='@/assets/curso/temas/tema1/tab1-4.png', alt='')
+          .col-lg-7.col-md-12.col-sm-12
+            p Evento que debe tener en cuenta la selección del sitio correcto para desarrollarlo. Y para ello también se debe tener en cuenta la audiencia target. Pensar si el evento lo pueden disfrutar más en persona o a través de una experiencia #[em online]. Estos detalles son vitales porque elegir el lugar perfecto para lanzar el producto es un elemento crítico que puede ser clave del éxito comercial. Un evento en vivo debe tener un lugar maravilloso que la gente se sienta atraída por asistir, lo cual ayudará a aumentar las ventas y a generar nuevo engagement por parte de los clientes. También se debe decidir cuánta gente se desea que asista, no necesariamente se requiere de muchos invitados, a veces una experiencia íntima puede impactar tanto como un evento masivo.
 
     .row.mb-4
       .col-12
@@ -449,11 +475,44 @@
             .p-3
               p.mt-1 #[b Eventos internos.] Hacia dentro de la empresa, dirigido al personal de esta o público vinculado de forma muy estrecha, principalmente eventos de formación, motivación e incentivo. La siguiente clasificación son tipos de eventos internos:
 
+    TabsC.color-primario.mb-5(data-aos="zoom-in-left")
+      .py-3.py-md-5(titulo="<i>Open Days</i>")
+        .row.justify-content-center.align-items-center
+          .col-lg-3.col-md-5.col-5.mb-4
+            img(src='@/assets/curso/temas/tema1/tab2-1.png', alt='')
+          .col-lg-7.col-md-12.col-sm-12
+            p Son jornadas de puertas abiertas donde los centros educativos ofrecen a los clientes o familias potenciales, su mejor cara para comunicar su oferta educativa, mostrar sus instalaciones, así como también los servicios adicionales que tenga el centro.
+      .py-3.py-md-4.px-3(titulo="Inauguraciones")
+        .row.justify-content-center.align-items-center
+          .col-lg-3.col-md-5.col-5.mb-4
+            img(src='@/assets/curso/temas/tema1/tab2-2.png', alt='')
+          .col-lg-7.col-md-12.col-sm-12
+            p Evento o festejo que tiene como fin celebrar el estreno de algo en especial, como, por ejemplo, la apertura de un nuevo local. Al hacer mención de la palabra inauguración, se refiere al #[em debut] de algo.
+      .py-3.py-md-4.px-3(titulo="Convenciones de ventas")
+        .row.justify-content-center.align-items-center
+          .col-lg-3.col-md-5.col-5.mb-4
+            img(src='@/assets/curso/temas/tema1/tab2-3.png', alt='')
+          .col-lg-7.col-md-12.col-sm-12
+            p Evento en el que se transmiten los nuevos objetivos y estrategias empresariales para todo el personal. Su finalidad es que estas convenciones se deben alinear con los planes estratégicos de la empresa.
+      .py-3.py-md-4.px-3(titulo="Actos")
+        .row.justify-content-center.align-items-center
+          .col-lg-3.col-md-5.col-5.mb-4
+            img(src='@/assets/curso/temas/tema1/tab2-4.png', alt='')
+          .col-lg-7.col-md-12.col-sm-12
+            p El término se refiere a desayunos de trabajo, almuerzos de trabajo sin acompañante, tés de trabajo y #[em snacks] de trabajo. Estos eventos son una de las prácticas más comunes en las empresas. Generalmente, se celebran en cafeterías o en amplios salones de reuniones, aunque algunas empresas prefieren realizarlos en lugares externos, como hoteles o restaurantes.
+            p La finalidad principal de estos encuentros se resume en tres puntos clave: negociación con proveedores, distribuidores o aliados estratégicos; acuerdos con proveedores, distribuidores, aliados estratégicos, empleados o sindicatos; y beneficios para proveedores, distribuidores, aliados estratégicos, empleados, sindicatos, clientes y la sociedad en general.
+            p Estos eventos pueden contar con la presencia de personalidades del ámbito político nacional o internacional, cuyo propósito es proporcionar un respaldo institucional significativo.
+      .py-3.py-md-4.px-3(titulo="Viajes de incentivo")
+        .row.justify-content-center.align-items-center
+          .col-lg-3.col-md-5.col-5.mb-4
+            img(src='@/assets/curso/temas/tema1/tab2-5.png', alt='')
+          .col-lg-7.col-md-12.col-sm-12
+            p Ofrece a los empleados una recompensa en forma de viaje por haber logrado los objetivos o por haber culminado exitosamente un proyecto innovador. 
+            p Se trata de entregar un premio a estos empleados que desarrollaron muy bien sus labores con un viaje como estímulo. Se pueden realizar individualmente, pero lo normal es que se efectúe en conjuntos de empleados, como, por ejemplo, todo un departamento interno del organigrama empresarial, porque su finalidad es fortificar lazos y relaciones entre los trabajadores. A la vez que se les premia, se les motiva para seguir progresando y mejorando día a día.
 
     .row.mb-4
       p Todos estos son eventos que se diseñan sobre un núcleo comunicacional en el que se debe tener claro qué se quiere obtener con el evento, qué es lo que se quiere informar, a quién se le quiere comunicar y con qué finalidad. Los eventos están encaminados hacia la obtención de logros y resultados que sean positivos para la empresa; se deben planear y programar con antelación, por ello hacen parte de los presupuestos anuales de la empresa y están consignados en los planes de mercadeo. 
       p Sin  embargo, un evento puede adoptar diferentes formatos y contemplar diversas actividades. Por lo tanto, existen clasificaciones adicionales basadas en los objetivos de los eventos, dentro de las cuales se pueden identificar los formatos que se explican en el siguiente video:
-
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-md-12.col-sm-12
@@ -463,10 +522,10 @@
           figcaption Video: Tipos de formatos para eventos.
 
     separador
-    #t_1_5.titulo-segundo.mb-5
+    #t_1_5.titulo-segundo.mb-4
       h2 1.5 El #[em stand]
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.col-md-12.col-sm-12
         p La participación por parte de la empresa en eventos y congresos es rentable a la hora de enlazar con otros profesionales, #[b destacarse sobre la competencia e incluso captar clientes nuevos.] Y en ese sentido es muy importante conocer qué tipos de estanterías hay en el mercado para elegir la que mejor se acomode a la empresa. 
       .col-lg-4.col-md-6.col-6
@@ -478,14 +537,36 @@
         img.icon(src='@/assets/curso/temas/icon.svg') 
     p.mb-4 Lo positivo de los stands es que su #[b diseño puede ser tan versátil como la creatividad de los diseñadores.] A continuación, se presentan los tipos de stands:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.col-md-12.col-sm-12
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video: Leyenda del video
-
-
+    .row.fondo1.align-items-center.p-3(data-aos="fade-down").mb-4
+      .col-lg-12.col-md-12.col-12.px-lg-5.px-4
+        .row.justify-content-center.mb-4
+        
+        .tarjetaf.p-3.mb-4
+          SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-6.col-md-12.col-sm-12
+                h4.mb-4 Sistema modular
+                p.mb-4 Combina estructuras de aluminio con paneles plastificados. Son versátiles y cómodos para armar, pero no son los que más sugieren para lograr una diferencia a través de una propuesta original, como sí lo puede lograr el stand de diseño libre. Por lo general, tienen medidas pequeñas y se usan en ferias de libros o artesanía. 
+              .col-lg-5.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema1/sly3-1.png")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-6.col-md-12.col-sm-12
+                h4.mb-4 #[em Stand custom]
+                p.mb-4 Se fabrican en madera o materiales flexibles, permiten una total personalización porque permiten un diseño libre. Cuando se trata de mejorar un valor diferenciador y llamar la atención de los clientes se recomienda este tipo de stand. Es más costoso porque no es modular y porque posee una mayor envergadura, pero, por otro lado, permite diseñar diferentes ambientes, zonas de trabajo, de reunión o de entrega de información en el mismo stand. 
+              .col-lg-5.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema1/sly3-2.png")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-6.col-md-12.col-sm-12
+                h4.mb-4 #[em Stand] portátil
+                p.mb-4 Son más rápidos de armar y transportar. Disponen de un soporte gráfico que tiene la imagen de la marca. A nivel comunicativo, sus funciones son más reducidas, pero por eso mismo no se necesitará de un presupuesto elevado. 
+              .col-lg-5.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema1/sly3-3.png")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-6.col-md-12.col-sm-12
+                h4.mb-4 #[em Stand] creativo o temático
+                p.mb-4 Se trata de los stands más evolucionados y demandan de mano de obra experta, porque su diseño y montaje necesita de mayor precisión que, por ejemplo, es stand con sistema modular. Según sea el tema o el contexto de la marca, se puede crear un diseño versátil y llamativo como por ejemplo diseñar una especie de bodega para promocionar un vino. Admite plasmar cualquier idea, pero su costo es superior. 
+              .col-lg-5.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema1/sly3-4.png")
 
 
 

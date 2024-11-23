@@ -88,6 +88,9 @@
 .borde-redondo
   border-radius: 25px
 
+.borde-recto
+  border-radius: 0px
+
 .borde-redondo-abajo
   border-bottom-left-radius: 20px
   border-bottom-right-radius: 20px
@@ -110,6 +113,9 @@
 
 .bgrosado  
   background-color:#ffd4ce
+
+.bgblanco
+  background-color: white
   
 // Slyder F boton tema1
 
@@ -122,6 +128,15 @@
 // slyder tema 1
 
 .fondo1
+  background: url('../assets/curso/temas/fondo1.jpg')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.fondo2
   background: url('../assets/curso/temas/fondo1.jpg')
   background-size: 100% 100%
   background-repeat: no-repeat
@@ -234,3 +249,28 @@
 .tarjeta-avatar-b.correr .tarjeta
     margin-left: -3% !important
     padding-left: 3% !important
+
+// tab C tema 1
+
+.tabs-c.color-primario .tabs-c__tab--active 
+  border-bottom-color: #FF725D !important
+  font-weight: 900
+
+.tabs-c.color-primario .tabs-c__tab--active:before 
+  border-top-color: #FF725D
+
+.tabs-c__tab
+  border-bottom: 4px solid #53BCED !important
+
+.tabs-c__header 
+  margin-bottom: 0px !important
+
+.tabs-c
+  border-bottom: 3px solid #D0D6D9
+
+.tabs-c__tab:after 
+    width: 4px
+    height: 36px
+    top: 50%
+    right: -2px
+    background-color: #53bced
