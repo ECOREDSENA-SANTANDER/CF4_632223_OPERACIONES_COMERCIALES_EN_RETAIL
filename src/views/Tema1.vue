@@ -402,21 +402,27 @@
           .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
             .tarjeta--boton.tema1
               .p-4
-                p.mb-4.mt-5.text-center #[b El mensaje debe llegar sin ninguna confusión.]
+                br
+                p.mt-5.text-center #[b El mensaje debe llegar sin ninguna confusión.]
+                br
       .col-lg-4.col-md-12.col-12
         .tarjeta-avatar
           img.mt-2(src='@/assets/curso/temas/tema1/tar4-2.png' alt='')
           .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
             .tarjeta--boton.tema1
               .p-4
-                p.mb-5.mt-5.text-center #[b Debe ser claro y entendible.]
+                br
+                p.mt-5.text-center #[b Debe ser claro y entendible.]
+                br
+                br
       .col-lg-4.col-md-12.col-12
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/tar4-3.png' alt='')
           .row.justify-content-center.align-items-center.mt-5.mx-1
             .tarjeta--boton.tema1
               .p-4
-                p.mb-4.text-center.mt-4 #[b Y el medio para transmitirlo debe ser coherente con lo que se quiere informar y con la forma en que se va a comunicar.]
+                br
+                p.mt-5.text-center #[b Y el medio para transmitirlo debe ser coherente con lo que se quiere informar y con la forma en que se va a comunicar.]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.col-md-12.col-sm-12
