@@ -897,6 +897,263 @@
                     i.fas.fa-check-circle
                     span.mb-0 #[b Contra moscas:] insecticidas similares y trampas eléctricas, luz UV. Las aves son portadores de enfermedades y parásitos peligrosos para la salud (Amagua, Coronel, Quintana y Reyes, 2016).
 
+    separador
+    #t_2_6.titulo-segundo
+      h2 2.6 Las demostraciones
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema2/img15.png', alt='')
+      .col-lg-8.col-md-12.col-sm-12
+        p La convicción es un tema vital en el proceso de ventas. La convicción radica en mostrar pruebas, hechos que comprueben lo que se afirma por parte de la empresa, bien sea publicitariamente o a través del equipo de la fuerza de ventas. Por eso al cliente se le debe convencer, pero muy importante, entusiasmarlo a la compra, de lo contrario sería inútil e improductivo. #[b El cliente  no solo debe estar convencido de las características del producto, sino, más importante aún, de las ventajas y beneficios que este le proporciona al comprarlo.] Por ello, la demostración es una acción vital y decisiva a través de la cual el vendedor puede persuadir a sus clientes.
+        p La demostración debe reunir estas cuatro características básicas: 
+        .row
+          .col-lg-6.col-md-12.col-sm-12
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-md-2.col-3
+                img(src='@/assets/curso/temas/tema2/icono1.png', alt='')
+              .col-lg-9.col-md-10.col-sm-12
+                p #[b Comprensión:] entender qué tipo de producto es.
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-md-2.col-3
+                img.mt-4(src='@/assets/curso/temas/tema2/icono2.png', alt='')
+              .col-lg-9.col-md-10.col-sm-12
+                p #[b Interés:] generar el deseo de saber más acerca del producto.
+          .col-lg-6.col-md-12.col-sm-12
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-md-2.col-3
+                img(src='@/assets/curso/temas/tema2/icono3.png', alt='')
+              .col-lg-9.col-md-10.col-sm-12
+                p #[b Credulidad:] confiar en las ventajas del producto.
+            .row.justify-content-center.align-items-center
+              .col-lg-3.col-md-2.col-3
+                img(src='@/assets/curso/temas/tema2/icono4.png', alt='')
+              .col-lg-9.col-md-10.col-sm-12
+                p #[b Persuasión:] motivar al posible cliente para que compre el producto por los beneficios exhibidos en la demostración.
+
+    .row.mb-4
+      p Entonces, a la hora de la convicción, se requiere de un factor que refuerce los argumentos en una venta, y ese factor se llama “demostración”. #[b Sin la demostración se hace complejo poder llegar al cierre de una compra] (Universidad América Latina - UAL, 2021).
+      p La demostración se puede considerar como el método que tiene un vendedor comercial para que el cliente se interese en el producto a través de su exposición de manera personalizada, para que no quepan dudas de que realmente es lo que necesita. 
+      p Debe desarrollarse de manera #[b dinámica y espectacular para captar mejor la atención del cliente.] Básicamente, consta de dos fases:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6.col-md-12.col-sm-12.p-1
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema2/tar9-1.png' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-3
+              .row.align-items-center.justify-content-center
+                .col-1
+                  img.mt-3(src='@/assets/curso/temas/tema2/1.png', alt='')
+                .col-11
+                  p.mt-4 #[b Primera fase:] interesar al posible cliente exhibiéndole de forma inteligente los argumentos.
+      .col-lg-6.col-md-12.col-sm-12.p-1
+        .tarjeta-avatar-b
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema2/tar9-2.png' alt='AvatarTop')
+          .tarjeta.tarjeta--azul
+            .p-3
+              .row.align-items-center.justify-content-center
+                .col-1
+                  img.mt-2(src='@/assets/curso/temas/tema2/2.png', alt='')
+                .col-11
+                  p.mt-2 #[b Segunda fase:] convencer al posible cliente a través de la exposición de pruebas, demostrando con hechos las ventajas y beneficios que otorga el producto.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-8.col-md-12.col-sm-12
+        p Las demostraciones deben crear algo más que lograr el interés por conocer más acerca del producto, deben generar curiosidad y una acción de compra al instante. Por eso, en la primera fase, los argumentos deben ser claros, concisos y completos, para que el posible cliente tenga toda la información a la mano. Después de esto, la demostración debe ser una exhibición tan significativa que resalte la importancia de la oferta. 
+        p Además, es el medio más eficiente para comprobar  las afirmaciones sobre cualquier producto, teniendo en cuenta lo siguiente:
+        ul.lista-ul--color.color-secundario.fa-ul.mt-4.mb-5
+          li 
+            i.fas.fa-check-circle
+            span.mb-0 #[b Convence más] que las simples palabras, ya que se basa en la práctica.
+          li 
+            i.fas.fa-check-circle
+            span.mb-0 #[b Es más memorable,] haciendo que el producto sea difícil de olvidar.
+          li 
+            i.fas.fa-check-circle
+            span.mb-0 #[b Clarifica] conceptos que podrían ser abstractos.
+          li 
+            i.fas.fa-check-circle
+            span.mb-0 #[b Ahorra tiempo] span al exponer de manera personalizada las ventajas y beneficios del producto.
+      .col-lg-4.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema2/img16.png', alt='')
+
+    .mb-4.d-flex.ps-lg-0
+      .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") La demostración como medio promocional de ventas
+        img.icon(src='@/assets/curso/temas/icon.svg') 
+
+    .row.align-items-center.justify-content-center
+      .col-lg-4.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema2/img17.png', alt='')
+      .col-lg-8.col-md-12.col-col-sm-12
+        p Un vendedor comercial, siendo un excelente orador y exhibidor de productos, puede mejorar su actuación utilizando otros canales como el audio y el video para reforzar su mensaje, una técnica conocida como demostración.
+        p.mb-4 Cuando se enfrenta a un posible cliente, es crucial considerar las diferencias individuales en relación con los medios visuales. Si el cliente no comprende bien la presentación oral, el vendedor debería usar medios visuales de comunicación. Esto resalta la importancia de las cuatro características básicas de la demostración: comprensión, interés, credulidad y persuasión, para motivar la compra.
+        .cajon.color-primario.p-5.mb-5
+          .h5 Preguntarse. ¿Qué se puede mostrar al cliente para realzar la presentación? 
+          p Es fundamental contar con, videos, imágenes, fotografías, multimedia y presentaciones digitales, con las cuales se puede hacer la demostración más efectiva. Incluso, un testimonio de un cliente satisfecho puede ser muy convincente .
+    
+    p Al exhibir las ventajas del producto, el vendedor debe aprovechar la acumulación espacial y la selectividad de la percepción. Mantener cautivos los ojos y oídos del cliente aumenta las posibilidades de venta. La elección del canal adecuado puede manipular la atención del cliente, incrementando el realismo y facilitando la comprensión de la demostración.
+    p Para complementar se exponen los siguientes principios del saber: 
+
+
+    .row.align-items-center.justify-content-center
+      .col-sm-12.col-md-12.col-lg-8
+          PasosA.color-acento-contenido.mb-5(tipo="n")
+            .row.align-items-end
+              .col-auto
+                h4.mb-4  Participación
+                p La práctica hace al maestro. La educación es un proceso activo, por eso, cuanto más se realice una labor, más, aprenderá.
+            .row.align-items-end
+              .col-auto
+                h4.mb-4  Asociación
+                p Si se emplean más canales sensitivos, más oportunidades existirán de tener un aprendizaje por asociación. 
+            .row.align-items-end
+              .col-auto
+                h4.mb-4  Transferencia
+                p Si los materiales usados por el vendedor demuestran el empleo del producto más oportunidades existirán para que el posible cliente sea capaz de comprender y visualizar el uso del producto en su propia empresa o para sí mismo. Muy usado cuando se trata de productos y servicios técnicos.
+            .row.align-items-end
+              .col-auto
+                h4.mb-4  Discernimiento
+                p Únicamente la presentación entrega al cliente detalles significativos sobre la oferta; pero se puede requerir de la demostración para exponer el empleo correcto de los productos y servicios, junto con sus ventajas y beneficios. 
+
+    p.mt-0 Las herramientas que se utilizan en la demostración comprenden un número muy amplio de formas, y pueden variar según sea la necesidad del vendedor comercial, por ejemplo, desde una lista de precios hasta una demostración del producto a gran escala. 
+    p.mb-4 A continuación, se presentan las herramientas que se utilizan con más frecuencia: 
+
+    .row.fondo1.align-items-center.p-3(data-aos="fade-down").mb-5
+      .col-lg-12.col-md-12.col-12.px-lg-5.px-4
+        .row.justify-content-center.mb-4
+        
+        .tarjetaf.p-3.mb-4
+          SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-7.col-md-12.col-sm-12
+                h4.mb-4 Fotografías
+                p.mb-4 Son mejores las fotos en color que en blanco y negro. El color debe mostrar al producto tal cual es, de forma realista. Se recomienda mostrar el producto en acción y no de manera aislada. También se pueden usar ampliaciones en algunas piezas específicas del producto para exponer detalles importantes. 
+              .col-lg-4.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema2/sly5-1.png")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-7.col-md-12.col-sm-12
+                h4.mb-4 Diagramas esquemáticos
+                p.mb-4 Son considerablemente útiles para transferir ideas sobre productos que son técnicos, y en este caso el color ayuda a comprenderlos mucho mejor, empleando uno para cada sección del diagrama. Pueden ser impresos en hojas transparentes (como el acetato) y montados en secuencia para que al final se vea una unidad completa. Por ejemplo, ir viendo las partes de un automóvil desde adentro hacia afuera. El diagrama esquemático también puede ser digital o multimedial.
+              .col-lg-4.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema2/sly5-2.png")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-7.col-md-12.col-sm-12
+                h4.mb-4 Copias
+                p.mb-4 Son representaciones del artículo en tres dimensiones de manera digital. Las copias deben ser realistas para que sean efectivas; pero, por lo general son simplificadas en comparación con el producto, porque se diseñan para mostrar únicamente las características más destacadas del artículo.
+              .col-lg-4.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema2/sly5-3.png")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-7.col-md-12.col-sm-12
+                h4.mb-4 Modelos en miniatura
+                p.mb-4 Son diferentes a las copias porque son réplicas exactas del producto hechas a escala y de forma tangible. Como ventaja, poseen un mayor realismo comparado con las copias; como desventaja, el costo puede ser elevado.
+              .col-lg-4.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema2/sly5-4.png")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-7.col-md-12.col-sm-12
+                h4.mb-4 Muestras
+                p.mb-4 Para artículos de tamaño pequeño la mejor demostración es el mismo producto; no hay nada que se le compare. La muestra debe estar en perfectas condiciones para que logre el mejor impacto. De todas formas, el vendedor no puede sobrepasar la cantidad de muestras indicadas por la misma empresa.
+              .col-lg-4.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema2/sly5-5.png")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-7.col-md-12.col-sm-12
+                h4.mb-4 Pruebas
+                p.mb-4 Es cuando se da la oportunidad de experimentar el producto al posible cliente. No se regala, se prueba para que el cliente lo tenga en mano y lo pueda sentir. Videojuegos, televisores y productos de tecnología usan esta herramienta.
+              .col-lg-4.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema2/sly5-5.png")
+            .row.justify-content-center.align-items-center.p-4
+              .col-lg-7.col-md-12.col-sm-12
+                h4.mb-4 Demostración en gran escala
+                p.mb-4 Es importante elegir el lugar perfecto para desarrollar la demostración. Cuando se trata de muchos posibles clientes, el sistema más económico es llevarlos al sitio de trabajo de un cliente real para observar el desempeño del producto, o en un lugar amoblado para la demostración del producto en masa. Por ejemplo, artículos de maquinaria pesada, productos  de sistemas de audio tipo Home Theater.
+              .col-lg-4.col-md-6.col-9
+                img(src="@/assets/curso/temas/tema2/sly5-5.png")
+
+    .mb-4.d-flex.ps-lg-0
+      .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") La demostración como medio promocional de ventas
+        img.icon(src='@/assets/curso/temas/icon.svg') 
+
+    .row.justify-content-center.align-items-center
+      .col-lg-6.col-md-12.col-sm-12
+        p La idea es que el vendedor ayude a la audiencia a la comprensión del material que usa en la demostración, para aprovechar las ventajas que tiene la demostración, con el fin de lograr exhibir los beneficios que trae el producto para los posibles clientes. El vendedor debe tener un conocimiento práctico de los cinco requisitos primordiales para lograr que la demostración sea efectiva:
+        .row.align-items-center.justify-content-center
+          .col-lg-4.col-md-6.col-6
+            img(src='@/assets/curso/temas/tema2/tar10-1.png', alt='')
+          .col-lg-8.col-md-12.col-col-sm-12
+            ul.lista-ul--color.color-acento-contenido.fa-ul.mt-2
+              li.mb-0 
+                i.fas.fa-check-circle
+                span.mb-0 Comprensión clara por parte de la audiencia.
+              li.mb-0
+                i.fas.fa-check-circle
+                span.mb-0 Definición precisa del objetivo de la demostración.
+              li.mb-0 
+                i.fas.fa-check-circle
+                span.mb-0 Organización excelente del material, canales o herramientas a usar en la demostración.
+              li.mb-0 
+                i.fas.fa-check-circle
+                span.mb-0 Apoyo de ayudas visuales adecuadas que impacten al posible cliente.
+              li.mb-0 
+                i.fas.fa-check-circle
+                span.mb-0 Demostración efectiva en el tiempo preciso. 
+      .col-lg-6.col-md-12.col-sm-12
+        p.mt-3 La manera en que el vendedor ordena su material y sincroniza la demostración, incide directamente en la selección de las herramientas visuales (tales como fotografías, esquemas, gráficos, diagramas, pruebas, etc.). Esta selección brinda el más alto potencial para optimizar las demostraciones debido a las siguientes razones:
+        .row.align-items-center.justify-content-center
+          .col-lg-4.col-md-6.col-6
+            img(src='@/assets/curso/temas/tema2/tar10-2.png', alt='')
+          .col-lg-8.col-md-12.col-col-sm-12
+            ul.lista-ul--color.color-acento-contenido.fa-ul.mt-2
+              li.mb-0 
+                i.fas.fa-check-circle
+                span.mb-0 Hay muy poca información sobre el tema, por eso la creatividad debe ser la mejor. 
+              li.mb-0
+                i.fas.fa-check-circle
+                span.mb-0 Las nuevas tendencias en diseño de gráfico y sus técnicas suministran opciones muy importantes que fortalecen la presentación verbal del vendedor. 
+              li.mb-0 
+                i.fas.fa-check-circle
+                span.mb-0 Las ayudas visuales centran la atención del cliente potencial en las ventajas y beneficios del producto (Universidad América Latina - UAL, 2021).
+           
+    separador
+    #t_2_7.titulo-segundo.mb-5
+      h2 2.7 Las degustaciones
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-4.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema2/img18.png', alt='')
+      .col-lg-8.col-md-12.col-sm-12    
+        p Es una actividad promocional que se constituye en una importante herramienta para mostrar al público las bondades de un nuevo producto, un nuevo sabor, una nueva fórmula o un producto que tuvo cambios y lo mejoraron, entre otros. Hay diferentes opciones para llegar e impactar al cliente potencial con la intención de que pruebe el producto, que en realidad es el objetivo central de la actividad (Universidad América Latina - UAL, 2021). 
+        p Obviamente, posterior a la acción de degustar el producto se encuentra la intención de motivar la compra de este, aprovechando el apoyo (visual, publicitario, recursos humanos, materiales de trabajo, abastecimiento, logística, etc.) con lo cual, se cuenta durante toda la actividad . La degustación se debe situar en los lugares donde exista más concentración de clientes, con el objetivo de aumentar el número de impactos logrados por “degustación” al día. Se sugiere un gran número de sitios donde se exhiba la degustación, es decir, tener una mayor cobertura geográfica (área o ciudad que se pretenda impactar).   
+        .cajon.color-primario.p-4.mb-4
+          p Hay quienes mencionan que esta actividad solo es una buena alternativa para comer en el punto de venta y que no representa un buen beneficio para la marca. Pero, para poder ser más prudente con el análisis, se recomienda tener claro cómo están las ventas del producto en el momento antes de la degustación, y cómo reaccionan durante y después de la misma. La medición final va a permitir el establecimiento bastante preciso sobre la eficacia de la actividad en el punto de venta. 
+
+    p.mb-4 Las siguientes son tres consideraciones que es vital tenerla en cuenta al implementar un plan de degustación:
+
+    .row.mb-4
+      AcordionA.acordion.activo(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
+        .row.justify-content-center.align-items-center(titulo="Preparación")
+          .col-lg-2.col-md-3.col-6
+            img(src='@/assets/curso/temas/tema2/aco2-1.png', alt='Texto que describa la imagen')
+          .col-lg-8.col-md-12.col-sm-12
+            p Hay productos que necesitan ser preparados porque pueden ser cocinados, asados o se les puede agregar algún condimento, dejando esto en responsabilidad de quien exhibe la degustación. Logrando así, la aceptación o rechazo, por parte del cliente.  Es importante tener en cuenta que no se puede alterar el sabor original con demasiados condimentos, para no afectar la intención de la degustación.
+        .row.justify-content-center.align-items-center(titulo="Ejecución")
+          .col-lg-2.col-md-3.col-6
+            img(src='@/assets/curso/temas/tema2/aco2-2.png', alt='Texto que describa la imagen')
+          .col-lg-8.col-md-12.col-sm-12
+            p Es vital que en la creación del plan de degustación se tengan en cuenta las negociaciones necesarias con el establecimiento comercial para ejecutar la actividad de forma adecuada. Por ejemplo, la instalación de un stand o mueble degustador, su tamaño, si se requiere de tomacorriente, que esté cerca del producto en góndola, cuántas personas estarán presentes haciendo la presentación de la degustación, si se necesita refrigeración, si es necesario un espacio en el establecimiento para guardar materiales o productos, etc. 
+        .row.justify-content-center.align-items-center(titulo="Personal")
+          .col-lg-2.col-md-3.col-6
+            img(src='@/assets/curso/temas/tema2/aco2-3.png', alt='Texto que describa la imagen')
+          .col-lg-8.col-md-12.col-sm-12
+            p La degustación brinda significativos beneficios para la marca, aunque su implementación no siempre es fácil. Por esta razón se sugiere contar  con expertos en el tema, más específicamente, de agencias promocionales que recluten, seleccionen, contraten, capaciten y supervisen al personal que desarrollará la actividad de degustación. También es vital que la actividad se realice con tiempo para que la agencia promocional pueda reunir al personal idóneo, prepararlo de la mejor forma y evitar contratiempos en el momento de la degustación. 
+
+    .row.justify-content-center.align-items-center
+      .col-lg-8
+        .cajon.color-acento-botones.p-4.mb-4
+          p Se recomienda también considerar la posibilidad de rotar los stands o muebles degustadores entre tiendas, situación que va a requerir de una planeación apropiada y pertinente. Los establecimientos de autoservicio son los que más se eligen para realizar este tipo de actividades de promoción porque brindan las mayores ventajas a la marca en términos de ubicación, número de consumidores, facilidades internas, imagen y número de impactos o consumidores que degusten el producto (Universidad América Latina - UAL, 2021).
+
 
 </template>
 
