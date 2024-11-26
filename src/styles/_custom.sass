@@ -90,6 +90,28 @@
 
 // fondos y bordes
 
+.fondocontenedor
+  background: url('../assets/curso/temas/tema2/fondo1.png')
+  background-size: 101%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.fondocontenedor1
+  background: url('../assets/curso/temas/tema2/fondo3.png')
+  background-size: 101%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem
+
+.bordeazulredondo
+  border-radius: 25px
+  border: 3px solid #53BCED
+
 .bordenaranjaredondo
   border-radius: 30px
   border: 4px solid #FF725D 
@@ -237,12 +259,25 @@
       margin-right: 20px
       font-size: 1.4rem
 
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 20px
+      font-size: 1.4rem
+
+
 .lista-ol--cuadro__vineta 
   background-color: #53BCED !important
   color: black !important
 
 .lista-ol--cuadro__vineta.acento-contenido 
   background-color: #FF725D !important
+
+.lista-ul--color.color-secundario li > i:first-of-type 
+    color: #0D66BF
 
 // tarjetas botones tema 1
 
@@ -313,3 +348,56 @@
 
 .linea-tiempo-c__header__btn--right, .linea-tiempo-c__header__btn--left
     background-color:  #FFD947
+
+// puntos calientes 
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after, .img-infografica-b__item__dot:before, .img-infografica-b__item__dot:after 
+  border-radius: 0
+  border-top-left-radius: 25%
+  border-top-right-radius: 25%
+
+// acordion tema 2
+
+.acordion.activo 
+.acordion__activo .acordion__accion__btn--b
+    background-color: #FFE3DE
+
+.acordion__accion__btn--b 
+    border: 1px solid #afafaf
+
+.acordion 
+    .acordion__activo
+      background: url('../assets/curso/temas/tema2/fondo2.png')
+      background-size: 100% 100%
+      background-repeat: no-repeat
+      background-position: center 
+      border-radius: 20px !important
+    .tarjeta--azull
+      background-color: #FFE3DE
+      border-bottom: 0.5px solid #D3D3D3 !important
+      border-radius: 0px
+
+///////// Card hover tema2
+
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
+
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #0D66BF !important
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: #fff !important
+
+.cambio
+  background-color: #FF725D

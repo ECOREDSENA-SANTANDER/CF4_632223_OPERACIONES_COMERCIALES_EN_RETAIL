@@ -404,57 +404,498 @@
           h4 Entorno externo
         p.mb-4 El entorno externo no depende de la empresa porque tiene variables o factores que nacen fuera de ella, por lo tanto, no pueden ser controlados por la empresa, este se integra por los siguientes factores:
     
-    .titulo-sexto.color-acento-contenido
-      h5 Figura 2. 
-      | Análisis “PESTEL” 
+    .row.fondocontenedor.justify-content-center.align-items-center.mb-5
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-          ImagenInfografica.color-acento-botones
-            template(v-slot:imagen)
-              figure
-                img(src='@/assets/curso/temas/tema2/fig2.png', alt='La imagen expone un diagrama circular del análisis PESTEL, que se utiliza para evaluar el entorno macroeconómico de una empresa. El diagrama está dividido en seis segmentos, cada uno representando una de las categorías del análisis: Político, Económico, Social, Tecnológico, Ecológico y Legal. Cada segmento está coloreado y etiquetado claramente para destacar su categoría correspondiente. En el centro del círculo, hay un ícono de edificios y una turbina eólica, simbolizando el entorno empresarial en su conjunto.', style='')
-            .tarjeta.color-acento-contenido.p-4(x="63%" y="16%" numero="+")
-              h5 Políticos.
-              p.mb-0 Son aquellos factores que se asocian con la clase política que pueden influir positiva o negativamente a futuro en la actividad empresarial. Se deben analizar temas como la política fiscal, los tratados de libre comercio, posibles cambios políticos en los gobiernos, entre otros, que pueden afectar seriamente en las actividades empresariales.
-            .tarjeta.color-primario.p-4(x="70%" y="20%" numero="+")
-              h5 Económicos.
-              p.mb-0 Se refiere al poder adquisitivo de la sociedad, las personas sólo compran bienes o servicios si poseen dinero. Por esta razón, en este factor se deben tener en cuenta indicadores como el PIB, el tipo de cambio, el índice de inflación, los intereses, el cambio del dólar o del euro, entre otras. Con estos indicadores se podrá realizar un pronóstico de ventas más ajustado y real.
-            .tarjeta.color-secundario.p-4(x="80%" y="10%" numero="+")
-              h5 Tecnológicos.
-              p.mb-0 Es un análisis sobre cómo las nuevas tecnologías pueden cambiar la sociedad en un futuro y cómo pueden afectar a la empresa. La tecnología puede influir en las estrategias de ventas, y por otro lado puede impulsar la capacidad empresarial para vender con mejores resultados. La inversión I+D de los países o continentes, nuevas tecnologías relacionadas con el contexto empresarial, el nacimiento de tecnologías disruptivas, cambios en el uso de energía, nuevos métodos de producción y distribución son algunos de los puntos que ameritan ser analizados desde el contexto de la empresa.
-            .tarjeta.color-acento-botones.p-4(x="90%" y="5%" numero="+")
-              h5 Socioculturales.
-              p.mb-0 Se refiere a desarrollar un análisis sobre qué elementos de la sociedad pueden influir en la empresa y cómo están cambiando. Se busca el poder identificar aquellas tendencias que tiene la sociedad actual. En esta variable se deben tener presentes el comportamiento demográfico, los cambios en el nivel de ingresos, los cambios en gustos o modas que puedan repercutir en el nivel de las compras, la diversidad cultural, los valores éticos, los cambios en cómo nos relacionamos o comunicamos, y hasta rasgos religiosos que sean interesantes tenerlos en cuenta. Con este análisis se pueden identificar los artículos que satisfacen mejor las necesidades del cliente. 
-            .tarjeta.p-4(x="100%" y="16%" numero="+" style='border-radius: 8px; background-color: #74D578')
-              h5 Ecológicos.
-              p.mb-0 Se refiere a estar al enterado de los posibles cambios normativos desde el contexto ecológico, y del nivel de conciencia social de este movimiento. La naturaleza siempre nos da enseñanzas importantes, más aún en la actualidad porque se ha comenzado a visualizar los resultados negativos por culpa de los abusos en los recursos naturales. Por eso, antes de lanzar un producto al mercado, se debe analizar si la materia prima para la producción y fabricación del producto afecta negativamente a la ecología.
-            .tarjeta.p-4(x="63%" y="16%" numero="+" style='border-radius: 8px; background-color: #F3AB1D')
-              h5 Legales.
-              p.mb-0 Son los cambios en las normativas que estén relacionadas con el contexto empresarial, y que también puede influir de forma positiva o negativa. Las licencias, las leyes o normas sobre el empleo, leyes de seguridad y salud en el trabajo, leyes antimonopolios, el entorno legal en el país de origen de la empresa, derechos de propiedad intelectual, sectores protegidos o regulados, entre otros.
+      .titulo-sexto.color-acento-contenido
+        h5 Figura 2. 
+        | Análisis “PESTEL” 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.col-md-12.col-sm-12.bordenaranjaredondo.p-5
-        .titulo-nuevo.mt-2
-          | 
-          h4 Entorno interno
-        p.mb-4 El entorno interno sí depende de la empresa porque tiene variables o factores que nacen dentro de ella, por lo tanto, se pueden controlar de tal forma que la empresa pueda tener un mejoramiento continuo. Los siguientes son esos factores:
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+            ImagenInfografica.color-secundario
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/temas/tema2/fig2.png', alt='La imagen expone un diagrama circular del análisis PESTEL, que se utiliza para evaluar el entorno macroeconómico de una empresa. El diagrama está dividido en seis segmentos, cada uno representando una de las categorías del análisis: Político, Económico, Social, Tecnológico, Ecológico y Legal. Cada segmento está coloreado y etiquetado claramente para destacar su categoría correspondiente. En el centro del círculo, hay un ícono de edificios y una turbina eólica, simbolizando el entorno empresarial en su conjunto.', style='')
+              .tarjeta.color-acento-contenido.p-4(x="63%" y="16%" numero="+")
+                h5 Políticos.
+                p.mb-0 Son aquellos factores que se asocian con la clase política que pueden influir positiva o negativamente a futuro en la actividad empresarial. Se deben analizar temas como la política fiscal, los tratados de libre comercio, posibles cambios políticos en los gobiernos, entre otros, que pueden afectar seriamente en las actividades empresariales.
+              .tarjeta.color-primario.p-4(x="74%" y="50%" numero="+")
+                h5 Económicos.
+                p.mb-0 Se refiere al poder adquisitivo de la sociedad, las personas sólo compran bienes o servicios si poseen dinero. Por esta razón, en este factor se deben tener en cuenta indicadores como el PIB, el tipo de cambio, el índice de inflación, los intereses, el cambio del dólar o del euro, entre otras. Con estos indicadores se podrá realizar un pronóstico de ventas más ajustado y real.
+              .tarjeta.color-secundario.p-4(x="38%" y="85%" numero="+")
+                h5 Tecnológicos.
+                p.mb-0 Es un análisis sobre cómo las nuevas tecnologías pueden cambiar la sociedad en un futuro y cómo pueden afectar a la empresa. La tecnología puede influir en las estrategias de ventas, y por otro lado puede impulsar la capacidad empresarial para vender con mejores resultados. La inversión I+D de los países o continentes, nuevas tecnologías relacionadas con el contexto empresarial, el nacimiento de tecnologías disruptivas, cambios en el uso de energía, nuevos métodos de producción y distribución son algunos de los puntos que ameritan ser analizados desde el contexto de la empresa.
+              .tarjeta.color-acento-botones.p-4(x="63%" y="85%" numero="+")
+                h5 Socioculturales.
+                p.mb-0 Se refiere a desarrollar un análisis sobre qué elementos de la sociedad pueden influir en la empresa y cómo están cambiando. Se busca el poder identificar aquellas tendencias que tiene la sociedad actual. En esta variable se deben tener presentes el comportamiento demográfico, los cambios en el nivel de ingresos, los cambios en gustos o modas que puedan repercutir en el nivel de las compras, la diversidad cultural, los valores éticos, los cambios en cómo nos relacionamos o comunicamos, y hasta rasgos religiosos que sean interesantes tenerlos en cuenta. Con este análisis se pueden identificar los artículos que satisfacen mejor las necesidades del cliente. 
+              .tarjeta.p-4(x="26%" y="50%" numero="+" style='border-radius: 8px; background-color: #74D578')
+                h5 Ecológicos.
+                p.mb-0 Se refiere a estar al enterado de los posibles cambios normativos desde el contexto ecológico, y del nivel de conciencia social de este movimiento. La naturaleza siempre nos da enseñanzas importantes, más aún en la actualidad porque se ha comenzado a visualizar los resultados negativos por culpa de los abusos en los recursos naturales. Por eso, antes de lanzar un producto al mercado, se debe analizar si la materia prima para la producción y fabricación del producto afecta negativamente a la ecología.
+              .tarjeta.p-4(x="38%" y="16%" numero="+" style='border-radius: 8px; background-color: #F3AB1D')
+                h5 Legales.
+                p.mb-0 Son los cambios en las normativas que estén relacionadas con el contexto empresarial, y que también puede influir de forma positiva o negativa. Las licencias, las leyes o normas sobre el empleo, leyes de seguridad y salud en el trabajo, leyes antimonopolios, el entorno legal en el país de origen de la empresa, derechos de propiedad intelectual, sectores protegidos o regulados, entre otros.
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10.col-md-12.col-sm-12.bordenaranjaredondo.p-5
+          .titulo-nuevo.mt-2
+            | 
+            h4 Entorno interno
+          p.mb-4 El entorno interno sí depende de la empresa porque tiene variables o factores que nacen dentro de ella, por lo tanto, se pueden controlar de tal forma que la empresa pueda tener un mejoramiento continuo. Los siguientes son esos factores:
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 3. 
       | Factores entorno interno 
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-          ImagenInfografica.color-acento-botones
+          ImagenInfografica.color-secundario
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/temas/tema2/fig3.png', alt='La imagen detalla  un diagrama circular que representa los factores del entorno interno de una empresa. El círculo está dividido en seis segmentos, cada uno con un ícono distinto: una bombilla (Capacidad de investigación, desarrollo y tecnología), un trofeo (filosofía empresarial, objetivos), un gráfico de barras (desempeño, atención al cliente), un globo terráqueo (capacidad de producción y cadena de suministros), un símbolo de dólar (Recursos financieros) y un ícono de conversación (recursos humanos). Se sugiere por la ubicación la interconexión y la diversidad de estos factores internos. ', style='')
-            .tarjeta.color-acento-contenido.p-4(x="63%" y="16%" numero="1")
+            .tarjeta.color-acento-contenido.p-4(x="65%" y="13%" numero="01")
               h5 Metas, objetivos y cultura
               p.mb-0 Tiene que ver con la filosofía empresarial, o sea sus principios, objetivos, misión, visión y valores de una empresa. Se convierten en su ruta de navegación, su norte. 
+            .tarjeta.color-acento-contenido.p-4(x="74%" y="50%" numero="02")
+              h5 Recursos humanos
+              p.mb-0 Tiene que ser con los empleados de la empresa y es obligatorio reflexionar sobre la integración de todos los miembros que hacen parte de la empresa. Se debe analizar en los perfiles, la rotación y las características que deben tener los ejecutivos de la fuerza de ventas ya que pueden tener una gran movilidad.
+            .tarjeta.color-acento-contenido.p-4(x="66%" y="82%" numero="03")
+              h5 Recursos financieros
+              p.mb-0 Tiene que ver con el músculo financiero de la empresa. Si tiene buenos recursos financieros podrá invertir en la investigación y desarrollo de nuevos productos o servicios y, además, capacitar correctamente a quienes laboran en esta área.
+            .tarjeta.color-acento-contenido.p-4(x="35%" y="86%" numero="04")
+              h5 Capacidad de producción y cadena de suministro
+              p.mb-0 Tiene que ver con la ubicación de las plantas productivas, la tecnología usada por la empresa y el equipo que tiene a su disposición. Todo esto influye en los planes de mercadeo y ventas. Como el tema es el suministro, la empresa debe prestar atención especial en garantizar que los productos siempre se encuentren disponibles en el punto de venta. 
+            .tarjeta.color-acento-contenido.p-4(x="25%" y="50%" numero="05")
+              h5 Capacidad de servicio
+              p.mb-0 Tiene que ver con la atención al cliente. Toda empresa debe cumplir con un alto nivel en la calidad del servicio prestado al cliente. Ofrecer a los clientes un valor agregado y un excelente servicio, antes, durante y después de una venta, puede hacer la diferencia competitiva.
+            .tarjeta.color-acento-contenido.p-4(x="35%" y="13%" numero="06")
+              h5 Capacidad de investigación y desarrollo y tecnología
+              p.mb-0 Tiene que ver con la inversión en tecnología y en la investigación de nuevos productos que permita a la empresa estar un paso delante de la competencia. 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-8.col-md-12.col-sm-12
+        .mb-4.d-flex.ps-lg-0
+          .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+            h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Técnicas de ventas
+            img.icon(src='@/assets/curso/temas/icon.svg') 
+        p.mt-4 Se refiere a los métodos de venta que tienen como finalidad llegar al cliente potencial a través de cualquier medio o canal, incluido internet y su ecosistema digital. El proceso de venta tiene unas etapas que comienzan con la ubicación y calificación del cliente, y terminan en el cierre de la venta; pero, no todo termina con la venta, ya que un excelente vendedor siempre estará en búsqueda de entregar un servicio y atención que generen más valor para el consumidor.
+        .cajon.color-primario.p-4.mb-4
+          p En el siglo XX, la venta personal era la técnica más importante, con vendedores que frecuentemente viajaban de casa en casa para exhibir sus productos. Posteriormente, las ventas  multinivel ganaron relevancia, y los vendedores utilizaban catálogos para mostrar los productos de manera más publicitaria. En la actualidad, las ventas a distancia, gestionadas por correspondencia, han recobrado mucha fuerza gracias a internet, convirtiéndose en uno de los medios más eficaces.
+      .col-lg-4.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema2/img9.png', alt='')
+
+    .mb-4.d-flex.ps-lg-0
+      .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Venta a distancia
+        img.icon(src='@/assets/curso/temas/icon.svg') 
+    p.mt-4.mb-4 Método en el que no hay una relación directa entre el cliente y el asesor de ventas. Se refiere a las ventas por correspondencia, ventas telefónicas, ventas electrónicas y ventas a través de la televisión. A continuación, se explicarán cada una de ellas:
+
+    .row.mb-5
+      AcordionA.acordion.activo(tipo="b" clase-tarjeta="tarjeta tarjeta--azull")
+        .row.justify-content-center.align-items-center(titulo="Venta por correspondencia")
+          .col-md-7
+            p Se ejecuta a través de un catálogo que se envía por correo postal o se pone directamente en el buzón del cliente. Puede tener el formato de “inserto”, que es un anuncio pagado tipo volante o folleto que se ubica dentro de las páginas de las revistas o periódicos. 
+            p Este tipo de ventas tiene como ventaja que puede describir la información del producto o servicio con gran detalle. Pero, en la actualidad, con la presencia del correo electrónico su uso ha disminuido considerablemente. 
+          .col-md-4.mb-4.mb-md-0
+            img(src='@/assets/curso/temas/tema2/aco1-1.png', alt='Texto que describa la imagen')
+        .row.justify-content-center.align-items-center(titulo="Ventas telefónicas")
+          .col-md-7
+            p También conocida como #[em telemarketing], especialmente se usa en mercados de gran consumo o para lanzar productos nuevos o en promoción especial.
+            P Con la aparición de la telefonía celular y de internet, ya no es tan usual ver esta técnica en la actualidad. 
+          .col-md-4.mb-4.mb-md-0
+            img(src='@/assets/curso/temas/tema2/aco1-2.png', alt='Texto que describa la imagen')
+        .row.justify-content-center.align-items-center(titulo="Ventas electrónicas")
+          .col-md-7
+            p Es el tipo de venta que se respalda en la transferencia de datos a través del ecosistema digital.
+            p Es la preferida en la actualidad por la economía que presenta a las empresas en su uso y por la agilidad y versatilidad que tiene a la hora de planear las ventas. Correo electrónico, redes sociales, sitios #[em webs] y hasta el WhatsApp sirven de apoyo.
+          .col-md-4.mb-4.mb-md-0
+            img(src='@/assets/curso/temas/tema2/aco1-3.png', alt='Texto que describa la imagen')
+        .row.justify-content-center.align-items-center(titulo="Ventas por televisión")
+          .col-md-7
+            p Se conocen también como televenta y se refieren a la demostración de productos o servicios de forma minuciosa; la idea es destacar los beneficios como por ejemplo un precio llamativo (puede ser una oferta o descuento) o también las ventajas competitivas.
+            p Por lo general, se transmiten diariamente en el mismo horario familiar.
+          .col-md-4.mb-4.mb-md-0
+            img(src='@/assets/curso/temas/tema2/aco1-4.png', alt='Texto que describa la imagen')
+        .row.justify-content-center.align-items-center(titulo="Venta personal")
+          .col-md-7
+            p En esta técnica sí hay contacto directo entre vendedor y cliente. Puede tener dos variables: ejecutarse por dentro o por fuera de las sedes de la empresa.
+            img(src='@/assets/curso/temas/tema2/aco1-5-2.png', alt='')
+          .col-md-4.mb-4.mb-md-0
+            img(src='@/assets/curso/temas/tema2/aco1-5-1.png', alt='Texto que describa la imagen')
+
+    p.mb-5 A su vez, las ventas internas, se pueden clasificar en:  
+
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema2/tar4-1.png", alt="alt")
+          .crd_hover_txt--body.cambio
+            h4.mb-3.text-center Venta directa
+            p.mb-0.text-center.text-white Cuando el cliente ingresa al establecimiento y es atendido de manera personalizada por el vendedor.
+      .col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema2/tar4-2.png", alt="alt")
+          .crd_hover_txt--body.cambio
+            h4.mb-3.text-center Venta en libre servicio
+            p.mb-0.text-center.text-white Cuando el cliente realiza una compra en una tienda de autoservicio, de un producto que ya ha elegido y evaluado previamente. Por lo general presenta la ventaja de tener precios más accesibles al consumidor.
+      .col-lg-4.col-md-6.col-12.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="fade-left").borde-redondo
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema2/tar4-3.png", alt="alt")
+          .crd_hover_txt--body.cambio
+            h4.mb-3.text-center Venta en ferias, salones y exhibiciones
+            p.mb-0.text-center.text-white Cuando la empresa expone sus productos o servicios a clientes potenciales en lugares especiales como salones especiales o zonas amplias donde pueda existir un buen ambiente. La empresa puede usar un salón de un hotel, por ejemplo. 
+
+    p.mb-4 Por su lado, en las ventas externas, se pueden clasificar en: 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema2/img10.png', alt='')
+      .col-lg-8.col-md-12.col-sm-12
+        .bgazulclaro.borde-redondo.p-4
+          SlyderF(columnas="col-lg-12 col-md-12 col-12")
+            .tarjeta.tarjeta--slyder.p-3
+              .row.justify-content-center.align-items-center(titulo="xxx")
+                .col-md-4.mb-4.mb-md-0
+                  img(src='@/assets/curso/temas/tema2/sly3-1.png', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Ventas a domicilio.
+                  p.mb-4 Cuando la venta se ejecuta en el lugar de ubicación del cliente y por lo general en ese instante se hace la orden de compra y luego se hace entrega del producto o servicio. Este tipo de ventas pueden ser “venta por cita en el domicilio del cliente”, cuando el vendedor visita al consumidor con una cita previa acordada por ambos; “venta de puerta en puerta”, cuando el vendedor, sin pedir cita, toca a la puerta del domicilio o lugar de estadía del cliente; y “venta en el lugar de trabajo”, cuando el vendedor visita al cliente en horario laboral en su oficina, previa cita.
+            .tarjeta.tarjeta--slyder.p-3
+              .row.justify-content-center.align-items-center(titulo="xxx")
+                .col-md-4.mb-4.mb-md-0
+                  img(src='@/assets/curso/temas/tema2/sly3-2.png', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Venta ambulante.
+                  p.mb-4 Cuando la venta no tiene un lugar fijo. Lo que sí es seguro es que se realiza en la calle y por lo general no presenta garantía en la calidad del producto.
+            .tarjeta.tarjeta--slyder.p-3
+              .row.justify-content-center.align-items-center(titulo="xxx")
+                .col-md-4.mb-4.mb-md-0
+                  img(src='@/assets/curso/temas/tema2/sly3-3.png', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Auto venta.
+                  p.mb-4 Cuando la empresa establece itinerarios para llevar a los clientes los productos que normalmente son perecederos y se consumen diariamente. El vendedor usa una ruta ya establecida de manera estratégica y entrega los productos a clientes que por lo general son tiendas minoristas.
+            .tarjeta.tarjeta--slyder.p-3
+              .row.justify-content-center.align-items-center(titulo="xxx")
+                .col-md-11
+                  h4.mb-4 Venta multinivel.
+                  p Cuando se crea una red que se compone por un cliente que se asocia a una empresa para obtener un código que lo autoriza como vendedor de sus productos y puede obtener, con precios más bajos, los productos directamente de la empresa. Con este código el cliente vendedor obtiene un porcentaje de las ventas que realicen otros clientes que fueron afiliados a través de ellos. 
+                  P De esta manera, el cliente vendedor gana por el descuento del precio del producto, por el porcentaje en las ventas propias, por el porcentaje en las ventas de las personas que afilió bajo su auspicio hasta el nivel de profundidad establecido por la empresa de multinivel, además de obtener bonificaciones y regalías de acuerdo con las normas que la empresa haya establecido. 
+                  P De esta forma cada integrante puede construir y dirigir su fuerza de venta afiliando, motivando y adiestrando a otros para que realicen lo mismo que él, hasta el punto de construir su propia organización, si así lo desean.
+
+    separador
+    #t_2_5.titulo-segundo.mb-5
+      h2 2.5 Buenas Prácticas de Manufactura (BPM )
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-1.col-md-2.col-2
+        img(src='@/assets/curso/temas/tema2/img11.png', alt='')
+      .col-lg-11.col-md-12.col-sm-12
+        p Estas  son las normas establecidas oficialmente por las empresas que actualmente regulan a las Plantas Procesadoras de Alimentos (PPA) en relación con los procedimientos de fabricación, limpieza y desinfección, higiene personal, manipulación, controles, registros y almacenamiento, garantizando así la calidad y seguridad de los alimentos (Amagua, Coronel, Quintana y Reyes, 2016).
+
+    p.mb-4 El uso de las BPM en la industria de alimentos puede ser empleado alrededor de las PPA o al interior de estas:
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+      .col-lg.col-md-12.col-sm-12
+        .bordeazulredondo.p-4
+          .row.align-items-center.justify-content-center
+            .col-lg-10.col-md-5.col-5
+              img(src='@/assets/curso/temas/tema2/tar5-1.png', alt='').mb-4
+          h4.mb-0.text-center En la planta
+          p.mb-5.text-center En los pisos, paredes, cielo raso y desagües.
+          .row.mb-5.mt-5
+          .row.mb-3
+      .col-lg.col-md-12.col-sm-12
+        .bordeazulredondo.p-4
+          .row.align-items-center.justify-content-center
+            .col-lg-10.col-md-5.col-5
+              img(src='@/assets/curso/temas/tema2/tar5-2.png', alt='').mb-4
+          h4.mb-0.text-center En los alrededores
+          p.mb-5.text-center Zonas externas a las PPA para presentar facilidades sanitarias.
+          .row.mb-5
+      .col-lg.col-md-12.col-sm-12
+        .bordeazulredondo.p-4
+          .row.align-items-center.justify-content-center
+            .col-lg-10.col-md-5.col-5
+              img(src='@/assets/curso/temas/tema2/tar5-3.png', alt='').mb-4
+          h4.mb-0.text-center Con equipos
+          p.mb-5.text-center Desinfección, mantenimiento y calibración de los equipos.
+          .row.mb-4
+      .col-lg.col-md-12.col-sm-12
+        .bordeazulredondo.p-4
+          .row.align-items-center.justify-content-center
+            .col-lg-10.col-md-5.col-5
+              img(src='@/assets/curso/temas/tema2/tar5-4.png', alt='').mb-4
+          h4.mb-0.text-center En almacenes
+          p.mb-5.text-center Ubicación interna, buena ventilación e iluminación.
+          .row.mb-4
+      .col-lg.col-md-12.col-sm-12
+        .bordeazulredondo.p-4
+          .row.align-items-center.justify-content-center
+            .col-lg-10.col-md-5.col-5
+              img(src='@/assets/curso/temas/tema2/tar5-5.png', alt='').mb-4
+          h4.mb-0.text-center Procesos productivos
+          p.mb-4.text-center Lógica en los procesos sanitarios (de higiene y presentación) del personal, como ejemplo.
 
 
+    p Este tema tiene que ver con todo el establecimiento, con el personal o empleados, con la higiene en la producción o transformación de los productos, con el almacenamiento y transporte de materias primas y del producto final, con el control de procesos en la producción y la documentación, entre otros. De tal forma que se pueda garantizar la calidad en los productos alimenticios.
+    p.mb-4 A continuación, su aplicación a diferentes procesos:
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-lg-12.col-md-12.col-sm-12
+        TabsA.color-acento-botones.mb-5
+          .tarjeta.bgrosado.p-4(titulo="BPM de materias primas")
+            .row.justify-content-center.align-items-center
+              .col-lg-12.col-md-12.col-sm-12  
+                p Si se sospecha que la materia prima es inadecuada, debe ser aislada de inmediato para ser rotulada y eliminarla. Las medidas que la empresa debe tener para eliminación de esta materia prima contaminada son específicas, según sea el proceso de elaboración. La materia prima debe estar almacenada en condiciones adecuadas que certifiquen su protección contra cualquier tipo de contaminante. Los productos terminados deben estar lejos del depósito para evitar la contaminación. Además, el almacenamiento se debe realizar en condiciones óptimas y el transporte debe realizarse según sean los principios higiénico-sanitarios que la empresa considere pertinentes.
+          .tarjeta.bgrosado.p-4(titulo="BPM en los establecimientos")
+            .row.justify-content-center.align-items-center
+              .col-lg-12.col-md-12.col-sm-12  
+                p No pueden estar ubicados en lugares que afecten la calidad del producto, como, por ejemplo, humedad o agua, peligro de deslave, o incluso olores censurables. Las vías internas en la empresa deben estar pavimentadas de tal forma que permitan la circulación de furgones, camiones y contenedores. La estructura del establecimiento debe ser sólida y sanitariamente apropiada, además, no debe haber materiales que transmitan sustancias indeseables a los alimentos. Deben existir muros y separaciones entre las áreas para evitar la contaminación cruzada. Los equipos e instrumentos deben ser de un material que permita desmontarlos para su desinfección. Es por esto por lo que el diseño de los equipos tiene que admitir una óptima desinfección. La limpieza de las áreas debe hacerse de manera fácil y adecuada. El agua usada para la limpieza tiene que ser potable y los pisos deben tener una inclinación del 2 % para su correcto desagüe. Y finamente, la caja de revisión se debe situar en el exterior de la PPA.
+          .tarjeta.bgrosado.p-4(titulo="BPM en procesadoras de alimentos")
+            .row.justify-content-center.align-items-center
+              .col-lg-12.col-md-12.col-sm-12  
+                p Las herramientas, equipos y material de trabajo se deben mantener en el mejor estado higiénico para su máxima conservación. En la limpieza y desinfección, se debe usar productos que no contaminen el proceso de las PPA. Se recomienda aplicar Planes Operativos Estandarizados de Saneamiento (POES) que muestran cómo, cuándo y dónde hacer limpieza y desinfección. 
+          .tarjeta.bgrosado.p-4(titulo="BPM en la higiene personal")
+            .row.justify-content-center.align-items-center
+              .col-lg-12.col-md-12.col-sm-12  
+                p Su finalidad es garantizar la no contaminación de los alimentos por parte de las personas que entren en contacto, bien sea directo o indirecto, con los alimentos. Para ello, en las PPA debe haber instrucciones por escrito y reglas establecidas de estricto cumplimiento por parte de los estos empleados, y que son referentes a sus hábitos en la higiene personal, como por ejemplo, que se bañen todos los días; tener uñas cortadas y limpias; tener ropa interior y uniformes limpios; uso de mascarillas; mantener los guantes aseados; usar ropa adecuada para evitar la contaminación como mallas para el cabello, guantes o gorras; hombres afeitados o mínimo, que tengan protectores para la barba; no usar joyas; mantenimiento del lugar de trabajo aseado; no ingerir comida, no comer chicle ni fumar en la planta; nada de maquillaje ni lociones o perfumes; lavarse las manos con frecuencia, en especial, luego de usar el teléfono, haber tocado el piso, recipientes de basura o cualquier fuente contaminante; entre otras consideraciones.
+          .tarjeta.bgrosado.p-4(titulo="BPM en sustancias peligrosas")
+            .row.justify-content-center.align-items-center
+              .col-lg-12.col-md-12.col-sm-12  
+                p Se deben rotular con una etiqueta que sea visible todas aquellas sustancias tóxicas, como, por ejemplo, solventes y plaguicidas, que puedan representar un riesgo para la salud y una fuente de contaminación para los productos alimenticios. Además de almacenarlos en áreas exclusivas alejadas de las PPA.
+          .tarjeta.bgrosado.p-4(titulo="BPM en la elaboración de alimentos")
+            .row.justify-content-center.align-items-center
+              .col-lg-12.col-md-12.col-sm-12  
+                p El material que se va a destinar para empacar y envasar no puede emitir sustancias tóxicas y, además, debe estar libre de contaminantes. La elaboración de los alimentos o el proceso que sufren de transformación debe ser realizado por empleados que hayan tenido capacitación al respecto y supervisado por el personal técnico.
+          .tarjeta.bgrosado.p-4(titulo="BPM en el almacenamiento y transporte")
+            .row.justify-content-center.align-items-center
+              .col-lg-12.col-md-12.col-sm-12  
+                p Como todas las prácticas anteriores, que sea en condiciones óptimas. Realizar inspecciones periódicas durante el almacenamiento. Dependiendo del tipo de producción se instauran las exigencias para el transporte de materias primas. Cuando hay alimentos congelados deben ser transportados con un correcto funcionamiento del equipo de frío, verificando que su temperatura sea la adecuada. Los vehículos, accesorios y conexiones deben estar siempre limpios, libres de tierra o desperdicio que contaminen los alimentos. Por otro lado, dependiendo del tipo de transporte, pueden variar los procesos y productos de limpieza. 
+          .tarjeta.bgrosado.p-4(titulo="BPM en el procesos y documentación")
+            .row.justify-content-center.align-items-center
+              .col-lg-12.col-md-12.col-sm-12  
+                p También se deben tener en cuenta los análisis de laboratorios para establecer cuáles son los contaminantes físicos, químicos y microbiológicos. Con el fin de garantizar un resultado óptimo en las BPM, se necesitan los controles que certifiquen el cumplimiento de los procedimientos y los criterios para obtener la calidad deseada. Su propósito es la definición, por escrito, de los procedimientos y los controles. El sistema de control debe permitir diferenciar entre números de lotes, fecha de fabricación y vencimiento, y debe permitir seguir el rastro del producto.
+
+    .mb-4.d-flex.ps-lg-0
+      .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Prácticas de limpieza
+        img.icon(src='@/assets/curso/temas/icon.svg') 
+
+    p.mb-4 La empresa siempre debe procurar que, de manera permanente, se hagan acciones como barrer, limpiar, enjuagar, escurrir, desinfectar. Existen algunos factores que afectan a la limpieza y desinfección de las PPA: 
+
+    .row(data-aos="fade-down")
+      .col-lg-4.col-md-12.col-12
+        .tarjeta-avatar
+          img.mt-2(src='@/assets/curso/temas/tema2/tar6-1.png' alt='')
+          .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
+            .tarjeta--boton.tema1
+              .p-4
+                br
+                h4.text-center Diseño de la planta
+                p.mt-5.text-center Materiales de construcción. diseño arquitectónico de las instalaciones.
+                br
+      .col-lg-4.col-md-12.col-12
+        .tarjeta-avatar
+          img.mt-2(src='@/assets/curso/temas/tema2/tar6-2.png' alt='')
+          .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
+            .tarjeta--boton.tema1
+              .p-4
+                br
+                h4.text-center Suciedad 
+                p.mt-5.text-center Cantidad de sucio, tipo y tiempo que lleva acumulado.
+                br
+                br
+      .col-lg-4.col-md-12.col-12
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema2/tar6-3.png' alt='')
+          .row.justify-content-center.align-items-center.mt-5.mx-1
+            .tarjeta--boton.tema1
+              .p-4
+                br
+                h4.text-center Procesos de limpieza
+                p.mt-5.text-center tiempo que dura el proceso, tipo de detergente a usar y su concentración, velocidad de flujo de la solución detergente usada por la PPA, acción mecánica.
+
+    p.mb-4 Las siguientes son las 4 zonas en las que se  debe poner atención para tener BPM:
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+      .col-lg-3.col-md-6.col-12.mb-4
+        .bgrosado.p-4.borde-redondo
+          h4.mb-3.text-center Zona 1
+          .row.align-items-center.justify-content-center
+            .col-10
+              img(src='@/assets/curso/temas/tema2/tar7-1.png', alt='').mb-4
+          p.mb-4.text-center Superficies que tengan contacto con el producto, bandas transportadoras, mesas de trabajo, sierras, tuberías, tanques, rebanadoras, llenadores, herramientas. 
+      .col-lg-3.col-md-6.col-12.mb-4
+        .bgrosado.p-4.borde-redondo
+          h4.mb-3.text-center Zona 2
+          .row.align-items-center.justify-content-center
+            .col-9
+              img(src='@/assets/curso/temas/tema2/tar7-2.png', alt='').mb-4
+          p.mb-4.text-center Exterior de los equipos, unidades de refrigeración, pisos, marcos, coches de transporte.
+          .row.mb-5
+          .row.mb-4
+      .col-lg-3.col-md-6.col-12.mb-4
+        .bgrosado.p-4.borde-redondo
+          h4.mb-3.text-center Zona 3
+          .row.align-items-center.justify-content-center
+            .col-9
+              img(src='@/assets/curso/temas/tema2/tar7-3.png', alt='').mb-4
+          p.mb-4.text-center Teléfonos, montacargas, intercomunicadores, drenajes, paneles.
+          .row.mb-4
+          .row.mb-4
+      .col-lg-3.col-md-6.col-12.mb-4
+        .bgrosado.p-4.borde-redondo
+          h4.mb-3.text-center Zona 4
+          .row.align-items-center.justify-content-center
+            .col-8
+              img(src='@/assets/curso/temas/tema2/tar7-4.png', alt='').mb-4
+          p.mb-4.text-center Vestidores, pasillos, cafetería, cuarto de entrenamientos, salas de reuniones, lavandería.
+          .row.mb-5
+
+    .mb-4.d-flex.ps-lg-0
+      .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Métodos de limpieza
+        img.icon(src='@/assets/curso/temas/icon.svg') 
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema2/img12.png', alt='')
+      .col-lg-8.col-md-12.col-col-sm-12
+        p.mb-4 Existen dos métodos de limpieza:
+        .bgrosado.borde-redondo.p-4
+          SlyderF(columnas="col-lg-12 col-md-12 col-12")
+            .tarjeta.tarjeta--slyder.p-3
+              .row.justify-content-center.align-items-center(titulo="xxx")
+                .col-md-4.mb-4.mb-md-0
+                  img(src='@/assets/curso/temas/tema2/sly4-1.png', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Limpieza en húmedo
+                  p.mb-4 Utiliza detergentes y agua. Se usan los siguientes procedimientos: Pre enjuague para eliminar la suciedad y ablandarla, de tal manera que luego sea fácilmente contrarrestada por el detergente. Luego viene la limpieza con el detergente en la que se pueden tener a disposición compuestos para efectuar la limpieza, como lo son álcalis, fosfatos, ácidos, humectantes y agentes quelantes; cada compuesto se aplica según sea la necesidad.
+            .tarjeta.tarjeta--slyder.p-3
+              .row.justify-content-center.align-items-center(titulo="xxx")
+                .col-md-4.mb-4.mb-md-0
+                  img(src='@/assets/curso/temas/tema2/sly4-2.png', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Limpieza en seco
+                  p.mb-4 Elimina la suciedad seca sin usar agua; se puede desarrollar a través de aspiradora, soplador (aire a presión), escoba, cepillo, raspador, etc.
+            .tarjeta.tarjeta--slyder.p-3
+              .row.justify-content-center.align-items-center(titulo="xxx")
+                .col-md-4.mb-4.mb-md-0
+                  img(src='@/assets/curso/temas/tema2/sly4-3.png', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Desinfección
+                  p.mb-4 Se deben definir planes validados de limpieza y desinfección por cada área y equipo, teniendo en cuenta la frecuencia, método, producto y responsable directo de cada área. Se debe hacer una selección de detergentes y desinfectantes, además de tener claros los datos técnicos y precauciones, con disolución adecuada a la hora de desinfectar. Todas las superficies que entren en contacto con los alimentos incluyen herramientas y guantes, que deben limpiarse y desinfectarse de forma frecuente. Las superficies que se usan para fabricar alimentos de baja humedad deben estar secos y en condiciones sanitarias.
+            .tarjeta.tarjeta--slyder.p-3
+              .row.justify-content-center.align-items-center(titulo="xxx")
+                .col-md-4.mb-4.mb-md-0
+                  img(src='@/assets/curso/temas/tema2/sly4-3.png', alt='Texto que describa la imagen')
+                .col-md-8
+                  h4.mb-4 Monitoreo ambiental
+                  p.mb-4 Las pruebas para el control  ambiental son una manera de calcular la efectividad de los procesos sanitarios: evaluar las superficies y aguas de enjuague bioluminiscencia. Proteínas descompuestas: método de detección colorimétrico (verde, gris, púrpura). Se deben tener claro cuáles son los puntos de monitoreo, los tanques de almacenamiento, las conexiones en sistemas, los cortadores.
+
+
+    .mb-4.d-flex.ps-lg-0
+      .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
+        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Guía de control de plagas
+        img.icon(src='@/assets/curso/temas/icon.svg') 
+
+    .row.fondocontenedor1.justify-content-center.align-items-center.mb-5
+
+      .row.justify-content-center.align-items-center
+        .col-lg-11.col-md-12.col-sm-12
+          p.mb-4.mt-4 Las plagas traen consigo un riesgo peligroso porque acarrean una gran cantidad de microorganismos y parásitos nocivos a través de su piel, fosas nasales, tracto gastrointestinal y deposiciones, por ello se deben conocer las condiciones de la planta que facilitan la invasión de plagas, especialmente en el almacenamiento de materia prima, depósitos de basura y desperdicios.
+
+      .row.justify-content-center.align-items-center
+        .col-lg-10.col-md-12.col-sm-12
+          .titulo-nuevo.mt-2
+            | 
+            h2 Definiciones  para elaborar un Programa de Control de Plagas (PCP):
+
+      .row.justify-content-center.align-items-center.mb-4
+        .col-lg-3.col-md-5.col-5
+          img(src='@/assets/curso/temas/tema2/img13.png', alt='')
+        .col-lg-7.col-md-12.col-sm
+          ul.lista-ul--color.color-acento-contenido.fa-ul
+            li 
+              i.fas.fa-bullhorn
+              span.mb-0 #[b Plaga:] especie que puede llegar hacer mucho daño, siendo una amenaza para la empresa y la PPA, especialmente cuando se encuentra en gran cantidad.
+            li 
+              i.fas.fa-bullhorn
+              span.mb-0 #[b Cebo:] es un veneno que se prepara en forma de comida y que va dirigida a las plagas para poderlas exterminar.
+            li 
+              i.fas.fa-bullhorn
+              span.mb-0 #[b Cebar:] poner el cebo seleccionado de manera que sea ingerido por la plaga.
+            li 
+              i.fas.fa-bullhorn
+              span.mb-0 #[b Infestación:] número alto de individuos que tiene una plaga y que es nocivo para la PPA.
+            li 
+              i.fas.fa-bullhorn
+              span.mb-0 #[b Plaguicida:] sustancia destinada para la prevención o el control de plagas.
+            li 
+              i.fas.fa-bullhorn
+              span.mb-0 #[b Rodenticida:] plaguicida que sirve para controlar roedores, ratones y ratas.
+            li 
+              i.fas.fa-bullhorn
+              span.mb-0 #[b Raticida:] rodenticida que controla solamente ratas.
+            li 
+              i.fas.fa-bullhorn
+              span.mb-0 #[b Fumigación:] método rápido para controlas las plagas como, por ejemplo, cianuro de calcio y fosfuro de hidrógeno.
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10.col-md-12.col-sm-12
+        p La gerencia del control de calidad de la planta es la que se encarga del control de plagas. La empresa debe asignar a una persona que se encargue de la Planeación y Control de Producción (PCP), quien tendrá la autoridad para requerir la ayuda del personal y supervisar el programa. Esta persona se debe capacitar en la manipulación de plaguicidas y  control de plagas y su responsabilidad es mantener limpios y seguros los alrededores de la planta y su interior. Además, debe conocer si la planta está ubicada en sitios donde los sistemas de limpieza sean deficientes y donde se almacene una gran cantidad de desperdicios.
+      .col-lg-2.col-md-3.col-3
+        img(src='@/assets/curso/temas/tema2/img14.png', alt='')
+    
+    .row(data-aos="fade-down")
+      .col-lg-6.col-md-12.col-12
+        .tarjeta-avatar
+          img.mt-5(src='@/assets/curso/temas/tema2/tar8-1.png' alt='')
+          .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
+            .tarjeta--boton.tema1
+              .p-4
+                br
+                br
+                br
+                h4.text-center.mt-5 Medidas preventivas
+                ul.lista-ul--color.color-secundario.fa-ul.mt-4
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Evitar la entrada de plagas al interior de la planta de alimento.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Limitar el acceso directo a las zonas donde se encuentran los alimentos. 
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Eliminar ambientes favorables que permitan la proliferación y desarrollo de plagas. 
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Diligencia rigurosa del programa de limpieza y desinfección.
+      .col-lg-6.col-md-12.col-12
+        .tarjeta-avatar
+          img.mt-5(src='@/assets/curso/temas/tema2/tar8-2.png' alt='')
+          .row.justify-content-center.align-items-center.mt-5.mb-5.mx-1
+            .tarjeta--boton.tema1
+              .p-4
+                br
+                br
+                br
+                h4.text-center.mt-5 Medidas correctivas
+                ul.lista-ul--color.color-secundario.fa-ul.mt-4.mb-5
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 #[b Contra roedores:] trampas y rodenticidas anticoagulantes. 
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 #[b Contra cucarachas:] insecticidas piretroides y del grupo fosforado.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 #[b Contra moscas:] insecticidas similares y trampas eléctricas, luz UV. Las aves son portadores de enfermedades y parásitos peligrosos para la salud (Amagua, Coronel, Quintana y Reyes, 2016).
 
 
 </template>
