@@ -313,8 +313,8 @@
           .tarjeta.tarjeta--azul
             .p-3
               .row.align-items-center.justify-content-center.mt-2
-                .col-2
-                  img(src='@/assets/curso/temas/tema2/A.png', alt='')
+                .col-1
+                  h1.mt-4.textoazul A.
                 .col-10
                   p.mt-4 Estrategias comerciales #[em online].
       .col-lg-6.col-md-12.col-sm-12.p-1
@@ -324,8 +324,8 @@
           .tarjeta.tarjeta--azul
             .p-3
               .row.align-items-center.justify-content-center.mt-2
-                .col-2
-                  img(src='@/assets/curso/temas/tema1/B.png', alt='')
+                .col-1
+                  h1.mt-4.textoazul B.
                 .col-10
                   p.mt-3 Estrategias comerciales #[em offline].
 
@@ -696,9 +696,8 @@
             .tarjeta--boton.tema1
               .p-4
                 br
-                h4.text-center Diseño de la planta
-                p.mt-5.text-center Materiales de construcción. diseño arquitectónico de las instalaciones.
-                br
+                h4.mt-5.text-center Diseño de la planta
+                p.mt-2.mb-5.text-center Materiales de construcción. diseño arquitectónico de las instalaciones.
       .col-lg-4.col-md-12.col-12
         .tarjeta-avatar
           img.mt-2(src='@/assets/curso/temas/tema2/tar6-2.png' alt='')
@@ -706,10 +705,8 @@
             .tarjeta--boton.tema1
               .p-4
                 br
-                h4.text-center Suciedad 
-                p.mt-5.text-center Cantidad de sucio, tipo y tiempo que lleva acumulado.
-                br
-                br
+                h4.mt-5.text-center Suciedad 
+                p.mt-2.mb-5.text-center Cantidad de sucio, tipo y tiempo que lleva acumulado.
       .col-lg-4.col-md-12.col-12
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/tar6-3.png' alt='')
@@ -717,8 +714,8 @@
             .tarjeta--boton.tema1
               .p-4
                 br
-                h4.text-center Procesos de limpieza
-                p.mt-5.text-center tiempo que dura el proceso, tipo de detergente a usar y su concentración, velocidad de flujo de la solución detergente usada por la PPA, acción mecánica.
+                h4.mt-5.text-center Procesos de limpieza
+                p.mt-2.mb-0.text-center tiempo que dura el proceso, tipo de detergente a usar y su concentración, velocidad de flujo de la solución detergente usada por la PPA, acción mecánica.
 
     p.mb-4 Las siguientes son las 4 zonas en las que se  debe poner atención para tener BPM:
 
@@ -727,34 +724,32 @@
         .bgrosado.p-4.borde-redondo
           h4.mb-3.text-center Zona 1
           .row.align-items-center.justify-content-center
-            .col-10
+            .col-9
               img(src='@/assets/curso/temas/tema2/tar7-1.png', alt='').mb-4
-          p.mb-4.text-center Superficies que tengan contacto con el producto, bandas transportadoras, mesas de trabajo, sierras, tuberías, tanques, rebanadoras, llenadores, herramientas. 
+          p.text-center.mb-4 Superficies que tengan contacto con el producto, bandas transportadoras, mesas de trabajo, sierras, tuberías, tanques, rebanadoras, llenadores, herramientas. 
       .col-lg-3.col-md-6.col-12.mb-4
         .bgrosado.p-4.borde-redondo
           h4.mb-3.text-center Zona 2
           .row.align-items-center.justify-content-center
             .col-9
               img(src='@/assets/curso/temas/tema2/tar7-2.png', alt='').mb-4
-          p.mb-4.text-center Exterior de los equipos, unidades de refrigeración, pisos, marcos, coches de transporte.
+          p.mb-5.text-center Exterior de los equipos, unidades de refrigeración, pisos, marcos, coches de transporte.
           .row.mb-5
-          .row.mb-4
       .col-lg-3.col-md-6.col-12.mb-4
         .bgrosado.p-4.borde-redondo
           h4.mb-3.text-center Zona 3
           .row.align-items-center.justify-content-center
             .col-9
               img(src='@/assets/curso/temas/tema2/tar7-3.png', alt='').mb-4
-          p.mb-4.text-center Teléfonos, montacargas, intercomunicadores, drenajes, paneles.
-          .row.mb-4
-          .row.mb-4
+          p.mb-5.text-center Teléfonos, montacargas, intercomunicadores, drenajes, paneles.
+          .row.mb-5
       .col-lg-3.col-md-6.col-12.mb-4
         .bgrosado.p-4.borde-redondo
           h4.mb-3.text-center Zona 4
           .row.align-items-center.justify-content-center
-            .col-8
+            .col-9
               img(src='@/assets/curso/temas/tema2/tar7-4.png', alt='').mb-4
-          p.mb-4.text-center Vestidores, pasillos, cafetería, cuarto de entrenamientos, salas de reuniones, lavandería.
+          p.mb-5.text-center Vestidores, pasillos, cafetería, cuarto de entrenamientos, salas de reuniones, lavandería.
           .row.mb-5
 
     .mb-4.d-flex.ps-lg-0
@@ -945,7 +940,7 @@
             .p-3
               .row.align-items-center.justify-content-center
                 .col-1
-                  img.mt-3(src='@/assets/curso/temas/tema2/1.png', alt='')
+                  h1.mt-4.textonaranja 1
                 .col-11
                   p.mt-4 #[b Primera fase:] interesar al posible cliente exhibiéndole de forma inteligente los argumentos.
       .col-lg-6.col-md-12.col-sm-12.p-1
@@ -956,7 +951,7 @@
             .p-3
               .row.align-items-center.justify-content-center
                 .col-1
-                  img.mt-2(src='@/assets/curso/temas/tema2/2.png', alt='')
+                  h1.mt-2.textonaranja 2
                 .col-11
                   p.mt-2 #[b Segunda fase:] convencer al posible cliente a través de la exposición de pruebas, demostrando con hechos las ventajas y beneficios que otorga el producto.
 

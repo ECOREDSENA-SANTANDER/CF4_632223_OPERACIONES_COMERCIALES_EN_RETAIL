@@ -86,12 +86,15 @@
 // tamaños imagenes
 
 .img1
-  width: 90px
+  width: 95px
 
 // textos
 
 .textoazul
   color:  #0D66BF
+
+.textonaranja
+  color:  #FF725D 
 
 // fondos y bordes
 
@@ -183,6 +186,11 @@
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
     margin-inline: -1.4rem
+
+.tarjeta.tarjeta--slyder
+  background-repeat: no-repeat
+  background-position: center 
+
 
 .tarjetaf
   background-color: #fff
@@ -406,3 +414,31 @@
 
 .cambio
   background-color: #FF725D
+
+//linea de tiempo D tema 3
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title 
+    background-color: #FFE3DE
+.linea-tiempo-d__item__content__slot 
+    background-color: #FFE3DE
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item__content 
+    background-color:  #d4eefb
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item__number 
+    background-color:  #d4eefb
+    color: black !important
+
+.linea-tiempo-d__item__dots:after 
+  content: ''
+  display: block
+  width: 0
+  height: 100%
+  border-left: 5px dotted #0D66BF !important
+
+// infografia tema 3
+
+.tarjeta.white-card
+  background-color:  #FFD947 !important
+
+.img-infografica-b__modal__contenido div > * 
+    color: black !important
