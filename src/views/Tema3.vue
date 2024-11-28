@@ -326,7 +326,7 @@
       .col-lg-12.col-md-12.col-sm-12
         .titulo-nuevo.mt-2
           | 
-          h4 Ejemplos más conocidos de muestras gratuitas
+          h4 Existen varias formas de ofrecer estas muestras:
 
     .row.justify-content-center.align-items-center
       .col-lg-4.col-md-6.col-6
@@ -661,7 +661,7 @@
       .col-sm-12.col-md-12.col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 4. 
-          | Factores entorno interno 
+          | Multicanalidad a omnicanalidad 
         figure
           img(src='@/assets/curso/temas/tema3/fig4.png', alt='La figura 4 describe la transición de la multicanalidad a la omnicanalidad en la atención al cliente. En la multicanalidad, el cliente puede interactuar con la empresa a través de diversos canales (redes sociales, tienda, correo, sitio web, teléfono), pero de forma independiente. En contraste, la omnicanalidad integra todos estos canales, permitiendo una experiencia unificada y coherente, donde la información del cliente se comparte entre los diferentes puntos de contacto, mejorando la satisfacción y eficiencia en la comunicación.')
           figcaption Nota. Tomada de Zendesk (s.f).

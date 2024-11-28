@@ -395,7 +395,7 @@
         h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Factores que afectan a las ventas
         img.icon(src='@/assets/curso/temas/icon.svg') 
 
-    p.mb-4 Lo primero que se debe hacer es diferenciar qué es estrategia comercial de ventas y qué es estrategia de marketing, ya que no tienen el mismo fin. La estrategia de marketing se orienta en la generación de oportunidades en el mercado, mientras que la estrategia comercial de ventas se aprovecha de estas oportunidades para lograr la rentabilidad empresarial.
+    p.mb-4 Una de las más importantes labores que debe tener un especialista en mercadeo es estar pendiente constantemente del entorno para intentar realizar un pronóstico de lo que puede suceder en los próximos meses y años, porque eso ayuda con la elaboración de estrategias entre diferentes escenarios o situaciones. Como ejemplo se puede mencionar lo que la sociedad ha vivido con el Covid-19 y la forma en que muchas empresas pudieron sostenerse o incluso, mejorar sus ventas porque diseñaron estrategias para lograrlo.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-md-12.col-sm-12.bordenaranjaredondo.p-5
@@ -1068,7 +1068,7 @@
 
     .mb-4.d-flex.ps-lg-0
       .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
-        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") La demostración como medio promocional de ventas
+        h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Requisitos para una buena demostración
         img.icon(src='@/assets/curso/temas/icon.svg') 
 
     .row.justify-content-center.align-items-center
