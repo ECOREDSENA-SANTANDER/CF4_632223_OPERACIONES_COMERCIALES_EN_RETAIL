@@ -645,40 +645,32 @@
     p Este tema tiene que ver con todo el establecimiento, con el personal o empleados, con la higiene en la producción o transformación de los productos, con el almacenamiento y transporte de materias primas y del producto final, con el control de procesos en la producción y la documentación, entre otros. De tal forma que se pueda garantizar la calidad en los productos alimenticios.
     p.mb-4 A continuación, su aplicación a diferentes procesos:
 
-    .row.justify-content-center.align-items-center.mt-5
-      .col-lg-12.col-md-12.col-sm-12
-        TabsA.color-acento-botones.mb-5
-          .tarjeta.bgrosado.p-4(titulo="BPM de materias primas")
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-lg-10.col-md-12.col-sm-12
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row.col-xl-11.m-auto(titulo="BPM de materias primas")
             .row.justify-content-center.align-items-center
-              .col-lg-12.col-md-12.col-sm-12  
-                p Si se sospecha que la materia prima es inadecuada, debe ser aislada de inmediato para ser rotulada y eliminarla. Las medidas que la empresa debe tener para eliminación de esta materia prima contaminada son específicas, según sea el proceso de elaboración. La materia prima debe estar almacenada en condiciones adecuadas que certifiquen su protección contra cualquier tipo de contaminante. Los productos terminados deben estar lejos del depósito para evitar la contaminación. Además, el almacenamiento se debe realizar en condiciones óptimas y el transporte debe realizarse según sean los principios higiénico-sanitarios que la empresa considere pertinentes.
-          .tarjeta.bgrosado.p-4(titulo="BPM en los establecimientos")
+              p Si se sospecha que la materia prima es inadecuada, debe ser aislada de inmediato para ser rotulada y eliminarla. Las medidas que la empresa debe tener para eliminación de esta materia prima contaminada son específicas, según sea el proceso de elaboración. La materia prima debe estar almacenada en condiciones adecuadas que certifiquen su protección contra cualquier tipo de contaminante. Los productos terminados deben estar lejos del depósito para evitar la contaminación. Además, el almacenamiento se debe realizar en condiciones óptimas y el transporte debe realizarse según sean los principios higiénico-sanitarios que la empresa considere pertinentes.
+          .row.col-xl-11.m-auto(titulo="BPM en los establecimientos")
             .row.justify-content-center.align-items-center
-              .col-lg-12.col-md-12.col-sm-12  
                 p No pueden estar ubicados en lugares que afecten la calidad del producto, como, por ejemplo, humedad o agua, peligro de deslave, o incluso olores censurables. Las vías internas en la empresa deben estar pavimentadas de tal forma que permitan la circulación de furgones, camiones y contenedores. La estructura del establecimiento debe ser sólida y sanitariamente apropiada, además, no debe haber materiales que transmitan sustancias indeseables a los alimentos. Deben existir muros y separaciones entre las áreas para evitar la contaminación cruzada. Los equipos e instrumentos deben ser de un material que permita desmontarlos para su desinfección. Es por esto por lo que el diseño de los equipos tiene que admitir una óptima desinfección. La limpieza de las áreas debe hacerse de manera fácil y adecuada. El agua usada para la limpieza tiene que ser potable y los pisos deben tener una inclinación del 2 % para su correcto desagüe. Y finamente, la caja de revisión se debe situar en el exterior de la PPA.
-          .tarjeta.bgrosado.p-4(titulo="BPM en procesadoras de alimentos")
+          .row.col-xl-11.m-auto(titulo="BPM en procesadoras de alimentos")
             .row.justify-content-center.align-items-center
-              .col-lg-12.col-md-12.col-sm-12  
                 p Las herramientas, equipos y material de trabajo se deben mantener en el mejor estado higiénico para su máxima conservación. En la limpieza y desinfección, se debe usar productos que no contaminen el proceso de las PPA. Se recomienda aplicar Planes Operativos Estandarizados de Saneamiento (POES) que muestran cómo, cuándo y dónde hacer limpieza y desinfección. 
-          .tarjeta.bgrosado.p-4(titulo="BPM en la higiene personal")
+          .row.col-xl-11.m-auto(titulo="BPM en la higiene personal")
             .row.justify-content-center.align-items-center
-              .col-lg-12.col-md-12.col-sm-12  
                 p Su finalidad es garantizar la no contaminación de los alimentos por parte de las personas que entren en contacto, bien sea directo o indirecto, con los alimentos. Para ello, en las PPA debe haber instrucciones por escrito y reglas establecidas de estricto cumplimiento por parte de los estos empleados, y que son referentes a sus hábitos en la higiene personal, como por ejemplo, que se bañen todos los días; tener uñas cortadas y limpias; tener ropa interior y uniformes limpios; uso de mascarillas; mantener los guantes aseados; usar ropa adecuada para evitar la contaminación como mallas para el cabello, guantes o gorras; hombres afeitados o mínimo, que tengan protectores para la barba; no usar joyas; mantenimiento del lugar de trabajo aseado; no ingerir comida, no comer chicle ni fumar en la planta; nada de maquillaje ni lociones o perfumes; lavarse las manos con frecuencia, en especial, luego de usar el teléfono, haber tocado el piso, recipientes de basura o cualquier fuente contaminante; entre otras consideraciones.
-          .tarjeta.bgrosado.p-4(titulo="BPM en sustancias peligrosas")
+          .row.col-xl-11.m-auto(titulo="BPM en sustancias peligrosas")
             .row.justify-content-center.align-items-center
-              .col-lg-12.col-md-12.col-sm-12  
                 p Se deben rotular con una etiqueta que sea visible todas aquellas sustancias tóxicas, como, por ejemplo, solventes y plaguicidas, que puedan representar un riesgo para la salud y una fuente de contaminación para los productos alimenticios. Además de almacenarlos en áreas exclusivas alejadas de las PPA.
-          .tarjeta.bgrosado.p-4(titulo="BPM en la elaboración de alimentos")
+          .row.col-xl-11.m-auto(titulo="BPM en la elaboración de alimentos")
             .row.justify-content-center.align-items-center
-              .col-lg-12.col-md-12.col-sm-12  
                 p El material que se va a destinar para empacar y envasar no puede emitir sustancias tóxicas y, además, debe estar libre de contaminantes. La elaboración de los alimentos o el proceso que sufren de transformación debe ser realizado por empleados que hayan tenido capacitación al respecto y supervisado por el personal técnico.
-          .tarjeta.bgrosado.p-4(titulo="BPM en el almacenamiento y transporte")
+          .row.col-xl-11.m-auto(titulo="BPM en el almacenamiento y transporte")
             .row.justify-content-center.align-items-center
-              .col-lg-12.col-md-12.col-sm-12  
                 p Como todas las prácticas anteriores, que sea en condiciones óptimas. Realizar inspecciones periódicas durante el almacenamiento. Dependiendo del tipo de producción se instauran las exigencias para el transporte de materias primas. Cuando hay alimentos congelados deben ser transportados con un correcto funcionamiento del equipo de frío, verificando que su temperatura sea la adecuada. Los vehículos, accesorios y conexiones deben estar siempre limpios, libres de tierra o desperdicio que contaminen los alimentos. Por otro lado, dependiendo del tipo de transporte, pueden variar los procesos y productos de limpieza. 
-          .tarjeta.bgrosado.p-4(titulo="BPM en el procesos y documentación")
+          .row.col-xl-11.m-auto(titulo="BPM en el procesos y documentación")
             .row.justify-content-center.align-items-center
-              .col-lg-12.col-md-12.col-sm-12  
                 p También se deben tener en cuenta los análisis de laboratorios para establecer cuáles son los contaminantes físicos, químicos y microbiológicos. Con el fin de garantizar un resultado óptimo en las BPM, se necesitan los controles que certifiquen el cumplimiento de los procedimientos y los criterios para obtener la calidad deseada. Su propósito es la definición, por escrito, de los procedimientos y los controles. El sistema de control debe permitir diferenciar entre números de lotes, fecha de fabricación y vencimiento, y debe permitir seguir el rastro del producto.
 
     .mb-4.d-flex.ps-lg-0
