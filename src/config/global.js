@@ -443,17 +443,12 @@ export default {
         },
         {
           nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Desarrollador <i>full-stack</i> Junior',
+          cargo: 'Desarrolladora <i>full-stack</i> Junior',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'María Alejandra Vera Briceño',
           cargo: 'Animador y producción audiovisual',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Actividad didáctica',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -462,12 +457,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'falta nombre',
-          cargo: 'Validador de recursos educativos digitales',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'falta nombre',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

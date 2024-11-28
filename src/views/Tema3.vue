@@ -127,7 +127,7 @@
               img(src='@/assets/curso/temas/tema3/ps1-5.png', alt='')
           .row.align-items-center.justify-content-center(numero="6" titulo= "Whatsapp")
             .col-md-10.col-lg-7.col-sm-12 
-              p Herramienta que posee un gran potencial para que las empresas tengan una comunicación directa con los clientes. Es una aplicación que brinda una funcionalidad importante para las empresas (WhatsApp Business) para que estas puedan tener un contacto más ágil con sus clientes a través de un chatbot que permite a la marca responder de manera instantánea a una gran cantidad de contactos diariamente. Este #[em chatbot] es muy útil para empresas que reciben masivamente contactos en el día, además de que puede direccionar las consultas a cada área a través de él. 
+              p Herramienta que posee un gran potencial para que las empresas tengan una comunicación directa con los clientes. Es una aplicación que brinda una funcionalidad importante para las empresas (#[em WhatsApp Business]) para que estas puedan tener un contacto más ágil con sus clientes a través de un chatbot que permite a la marca responder de manera instantánea a una gran cantidad de contactos diariamente. Este #[em chatbot] es muy útil para empresas que reciben masivamente contactos en el día, además de que puede direccionar las consultas a cada área a través de él. 
             .col-md-2.col-lg-4.col-4
               img(src='@/assets/curso/temas/tema3/ps1-6.png', alt='')
 
@@ -200,7 +200,7 @@
                 img.mb-2(src='@/assets/curso/temas/tema3/ps2-8.png', alt='Texto que describa la imagen')
               .col-md-9.col-lg-7.col-sm-12
                 h4.mb-4  Conjugar intereses
-                p En una acción de compra intervienen tres actores: el cliente, el vendedor y el producto que se promociona. Como en toda relación comercial, el objetivo es que todos los actores obtengan un beneficio: el comprador satisface su necesidad , el vendedor recibe una comisión por la venta, y el producto contribuye a la rentabilidad de la empresa. Para que esta relación comercial perdure en el tiempo, es esencial que el asesor comercial, quien actúa como puente entre la empresa y el cliente, mantenga satisfechos a ambos a través de una excelente atención. Esto se logra mediante una comunicación honesta y clara entre los tres actores (Wetto, 2017).
+                p En una acción de compra intervienen tres actores: el cliente, el vendedor y el producto que se promociona. Como en toda relación comercial, el objetivo es que todos los actores obtengan un beneficio: el comprador satisface su necesidad, el vendedor recibe una comisión por la venta, y el producto contribuye a la rentabilidad de la empresa. Para que esta relación comercial perdure en el tiempo, es esencial que el asesor comercial, quien actúa como puente entre la empresa y el cliente, mantenga satisfechos a ambos a través de una excelente atención. Esto se logra mediante una comunicación honesta y clara entre los tres actores (Wetto, 2017).
 
     Separador
     #t_3_3.titulo-segundo.mb-5
@@ -580,7 +580,7 @@
                 .row.align-items-center.justify-content-center
                   .col-lg-6
                     .h4 Dispensador
-                    pPieza publicitaria en la cual se ubican un grupo de productos para exhibirlos al cliente y que admite distribuir o suministrar los productos en forma de auto servicio, pero de con una estética más llamativa. Su función es la de exhibir al cliente un producto o una gama de productos dentro de establecimiento. Se usa mucho para cervezas, gaseosas y productos que necesitan ser refrigerados.
+                    pPieza Publicitaria en la cual se ubican un grupo de productos para exhibirlos al cliente y que admite distribuir o suministrar los productos en forma de auto servicio, pero de con una estética más llamativa. Su función es la de exhibir al cliente un producto o una gama de productos dentro de establecimiento. Se usa mucho para cervezas, gaseosas y productos que necesitan ser refrigerados.
                   .col-lg-3
                     img(src='@/assets/curso/temas/tema3/pc1-19.png', alt='')
 
@@ -653,7 +653,7 @@
             h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") De la multicanalidad a la omnicanalidad
             img.icon(src='@/assets/curso/temas/icon.svg') 
         p En la actualidad, las empresas deben atraer a clientes cada vez más digitales, quienes han adoptado rápidamente las nuevas tecnologías y, gracias a la difusión de la telefonía celular, están acostumbrados a disponer de lo que desean, cuando y donde quieran. La omnicanalidad, por tanto, debe ser flexible y conveniente, permitiendo que los clientes se comuniquen con las marcas a través del canal que elijan, en cualquier momento y lugar.
-        p Esto implica que los canales deben estar interrelacionados, asegurando un flujo de información sin problemas entre las diferentes fases de la relación con el cliente. De esta manera, el cliente puede iniciar una transacción en un canal, continuarla en otro y finalizarla en un tercero, de manera fluida y sin interrupciones, manteniendo una identidad de marca coherente y sin fisuras en la experiencia .    
+        p Esto implica que los canales deben estar interrelacionados, asegurando un flujo de información sin problemas entre las diferentes fases de la relación con el cliente. De esta manera, el cliente puede iniciar una transacción en un canal, continuarla en otro y finalizarla en un tercero, de manera fluida y sin interrupciones, manteniendo una identidad de marca coherente y sin fisuras en la experiencia.    
       .col-lg-4.col-md-6.col-6
         img(src='@/assets/curso/temas/tema3/img9.png', alt='')
 

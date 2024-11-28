@@ -179,13 +179,13 @@
               .col-lg-4.col-md-6.col-6
                 img(src='@/assets/curso/temas/tema2/tab1-1.png', alt='')
               .col-lg-7.col-md-12.col-sm-12  
-                p Es cuando los servicios se producen y se consumen al mismo tiempo y no se pueden separar de sus proveedores , ya sean estos, personas, máquinas o instalaciones. Por ejemplo, un restaurante vende comida, que es un producto, pero sustancialmente es un servicio y en este caso solo se hace tangible cuando se consume.
+                p Los servicios no pueden ser vistos, probados, sentidos, olfateados o escuchados . En el sector de servicios, se promocionan experiencias intangibles. Por ejemplo, el servicio de un seguro médico es intangible, no se toca, pero se tiene la seguridad que cuenta con médicos cuando se requieran.
           .tarjeta.bgrosado.p-4(titulo="Carácter indisociable del servicio")
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-6.col-6
                 img(src='@/assets/curso/temas/tema2/tab1-2.png', alt='')
               .col-lg-7.col-md-12.col-sm-12  
-                p Los servicios no pueden ser vistos, probados, sentidos, olfateados o escuchados . En el sector de servicios, se promocionan experiencias intangibles. Por ejemplo, el servicio de un seguro médico es intangible, no se toca, pero se tiene la seguridad que cuenta con médicos cuando se requieran.
+                p Es cuando los servicios se producen y se consumen al mismo tiempo y no se pueden separar de sus proveedores , ya sean estos, personas, máquinas o instalaciones. Por ejemplo, un restaurante vende comida, que es un producto, pero sustancialmente es un servicio y en este caso solo se hace tangible cuando se consume.
           .tarjeta.bgrosado.p-4(titulo="Carácter  perecedero del servicio")
             .row.justify-content-center.align-items-center
               .col-lg-4.col-md-6.col-6
@@ -715,7 +715,7 @@
               .p-4
                 br
                 h4.mt-5.text-center Procesos de limpieza
-                p.mt-2.mb-0.text-center tiempo que dura el proceso, tipo de detergente a usar y su concentración, velocidad de flujo de la solución detergente usada por la PPA, acción mecánica.
+                p.mt-2.mb-0.text-center Tiempo que dura el proceso, tipo de detergente a usar y su concentración, velocidad de flujo de la solución detergente usada por la PPA, acción mecánica.
 
     p.mb-4 Las siguientes son las 4 zonas en las que se  debe poner atención para tener BPM:
 
@@ -1062,7 +1062,7 @@
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Demostración en gran escala
-                p.mb-4 Es importante elegir el lugar perfecto para desarrollar la demostración. Cuando se trata de muchos posibles clientes, el sistema más económico es llevarlos al sitio de trabajo de un cliente real para observar el desempeño del producto, o en un lugar amoblado para la demostración del producto en masa. Por ejemplo, artículos de maquinaria pesada, productos  de sistemas de audio tipo Home Theater.
+                p.mb-4 Es importante elegir el lugar perfecto para desarrollar la demostración. Cuando se trata de muchos posibles clientes, el sistema más económico es llevarlos al sitio de trabajo de un cliente real para observar el desempeño del producto, o en un lugar amoblado para la demostración del producto en masa. Por ejemplo, artículos de maquinaria pesada, productos  de sistemas de audio tipo #[em Home Theater].
               .col-lg-4.col-md-6.col-9
                 img(src="@/assets/curso/temas/tema2/sly5-5.png")
 
