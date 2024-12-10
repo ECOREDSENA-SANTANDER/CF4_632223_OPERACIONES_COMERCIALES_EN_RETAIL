@@ -125,9 +125,9 @@
               p Herramienta de #[em software] que reemplaza las funciones de una persona y que a través de una interfaz tipo chat puede crear conversaciones en tiempo real con los clientes de la marca. Han ganado popularidad en los últimos años presentándose como una nueva forma para que las empresas se puedan comunicar con sus clientes, tanto potenciales como reales; además que aprovechan la progresiva popularidad de las aplicaciones de telefonía celular.
             .col-md-2.col-lg-4.col-4
               img(src='@/assets/curso/temas/tema3/ps1-5.png', alt='')
-          .row.align-items-center.justify-content-center(numero="6" titulo= "Whatsapp")
+          .row.align-items-center.justify-content-center(numero="6" titulo= "WhatsApp")
             .col-md-10.col-lg-7.col-sm-12 
-              p Herramienta que posee un gran potencial para que las empresas tengan una comunicación directa con los clientes. Es una aplicación que brinda una funcionalidad importante para las empresas (#[em WhatsApp Business]) para que estas puedan tener un contacto más ágil con sus clientes a través de un chatbot que permite a la marca responder de manera instantánea a una gran cantidad de contactos diariamente. Este #[em chatbot] es muy útil para empresas que reciben masivamente contactos en el día, además de que puede direccionar las consultas a cada área a través de él. 
+              p Herramienta que posee un gran potencial para que las empresas tengan una comunicación directa con los clientes. Es una aplicación que brinda una funcionalidad importante para las empresas (WhatsApp Business) para que estas puedan tener un contacto más ágil con sus clientes a través de un chatbot que permite a la marca responder de manera instantánea a una gran cantidad de contactos diariamente. Este #[em chatbot] es muy útil para empresas que reciben masivamente contactos en el día, además de que puede direccionar las consultas a cada área a través de él. 
             .col-md-2.col-lg-4.col-4
               img(src='@/assets/curso/temas/tema3/ps1-6.png', alt='')
 

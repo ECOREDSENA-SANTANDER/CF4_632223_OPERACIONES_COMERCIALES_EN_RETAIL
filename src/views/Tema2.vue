@@ -1050,13 +1050,13 @@
                 h4.mb-4 Pruebas
                 p.mb-4 Es cuando se da la oportunidad de experimentar el producto al posible cliente. No se regala, se prueba para que el cliente lo tenga en mano y lo pueda sentir. Videojuegos, televisores y productos de tecnología usan esta herramienta.
               .col-lg-4.col-md-6.col-9
-                img(src="@/assets/curso/temas/tema2/sly5-5.png")
+                img(src="@/assets/curso/temas/tema2/sly5-6.png")
             .row.justify-content-center.align-items-center.p-4
               .col-lg-7.col-md-12.col-sm-12
                 h4.mb-4 Demostración en gran escala
                 p.mb-4 Es importante elegir el lugar perfecto para desarrollar la demostración. Cuando se trata de muchos posibles clientes, el sistema más económico es llevarlos al sitio de trabajo de un cliente real para observar el desempeño del producto, o en un lugar amoblado para la demostración del producto en masa. Por ejemplo, artículos de maquinaria pesada, productos  de sistemas de audio tipo #[em Home Theater].
               .col-lg-4.col-md-6.col-9
-                img(src="@/assets/curso/temas/tema2/sly5-5.png")
+                img(src="@/assets/curso/temas/tema2/sly5-7.png")
 
     .mb-4.d-flex.ps-lg-0
       .d-flex.flex-wrap.align-items-center.pe-3.bg-img-blue
