@@ -33,12 +33,12 @@
                 .col-10
                   p.mt-3 Informar. Esto incluye detalles sobre características, beneficios, precios, promociones y puntos de venta.
     
-    p Estos dos objetivos deben estar implícitos en cualquier pieza publicitaria, y aunque no son exclusivos de la publicidad, sí exponen el porqué de su existencia para beneficio de las marcas. Su propósito será siempre la provocación, la acentuación o lograr la aceptación de la marca, producto o servicio que se expone en las diferentes piezas publicitarias, tales como comerciales de televisión, anuncios de prensa y revista, publicidad exterior, cuñas radiales, volantes, afiches, eCards, banners, etc. 
+    p Estos dos objetivos deben estar implícitos en cualquier pieza publicitaria, y aunque no son exclusivos de la publicidad, sí exponen el porqué de su existencia para beneficio de las marcas. Su propósito será siempre la provocación, la acentuación o lograr la aceptación de la marca, producto o servicio que se expone en las diferentes piezas publicitarias, tales como comerciales de televisión, anuncios de prensa y revista, publicidad exterior, cuñas radiales, volantes, afiches, #[em eCards], #[em banners], etc. 
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.col-md-12.col-sm-12
         .cajon.color-acento-contenido.p-4.mb-4
-          p Ahora, en cuanto a la publicidad en el punto de venta, esta se lleva a cabo dentro de la tienda y se conoce comúnmente como #[b PLV (Publicidad en el Lugar de Venta), PPV (Publicidad en el Punto de Venta) o POP (Point of Purchase - Publicidad en el Punto de Compra).]
+          p Ahora, en cuanto a la publicidad en el punto de venta, esta se lleva a cabo dentro de la tienda y se conoce comúnmente como #[b PLV (Publicidad en el Lugar de Venta), PPV (Publicidad en el Punto de Venta) o POP (#[em Point of Purchase] - Publicidad en el Punto de Compra).]
         p Estas siglas hacen referencia a una manera de comunicar que con frecuencia la emplean los anunciantes que mercadean sus productos en el interior de los establecimientos comerciales. Y más exactamente se refiere a las piezas publicitarias diseñadas con el propósito de exponerlas en el punto de venta para alcanzar de manera directa a los clientes. Por ello deben ser persuasivas y hacer del punto de venta, su canal de comunicación, logrando que la publicidad esté de frente al cliente, justo en el espacio correcto y en el momento preciso en el que se ejecuta una acción de compra.
       .col-lg-4.col-md-8.col-8
         img(src='@/assets/curso/temas/tema1/img1.png', alt='')
@@ -151,7 +151,7 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/ps1-3.png', alt='')
             .col-lg
-              p Tiene grafismos publicitarios que fortalecen la identidad de la marca del fabricante y/o producto promocionado.
+              p Tiene grafismos publicitarios que fortalecen la identidad de la marca del fabricante y / o producto promocionado.
           .row.align-items-end
             .col-lg
               p Tiene un sistema que admite el posicionamiento y ubicación en el establecimiento.
@@ -163,7 +163,7 @@
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/tema1/ps1-5.png', alt='')
             .col-lg
-              p Responde, por lo general, a escenarios donde existan modas, tendencias y fechas especiales, por lo que posee una gran rotación, permitiendo la renovación constante de publicidad, al mismo tiempo que mejora la percepción del usuario/comprador. 
+              p Responde, por lo general, a escenarios donde existan modas, tendencias y fechas especiales, por lo que posee una gran rotación, permitiendo la renovación constante de publicidad, al mismo tiempo que mejora la percepción del usuario / comprador. 
 
     .row.justify-content-center.align-items-center
       .col-lg-8
@@ -383,7 +383,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.col-md-12.col-sm-12
-        p.mb-4 Son una parte vital de las estrategias de comunicación de las empresas. La marca apela al evento cuando tiene algo que notificar. No se trata solo de lanzar un mensaje a los clientes, se trata de la transmisión de los valores de la marca y siendo capaces de envolverlo en un entorno creativo , donde se pueda transmitir experiencias y emociones significativas.
+        p.mb-4 Son una parte vital de las estrategias de comunicación de las empresas. La marca apela al evento cuando tiene algo que notificar. No se trata solo de lanzar un mensaje a los clientes, se trata de la transmisión de los valores de la marca y siendo capaces de envolverlo en un entorno creativo, donde se pueda transmitir experiencias y emociones significativas.
         .cajon.color-primario.p-4.mb-4
           p #[b Un evento debe ser capaz de causar el interés por parte de los medios de comunicación (a los cuales se les debe invitar para que estén presentes y luego puedan hacer un #[em Free Press], informando sobre lo ocurrido), así como también debe impactar a los clientes y público presente. Y lo más importante, la idea es lograr la fidelización de los clientes.] 
         p Un buen evento no solo sirve para transferir mensajes a los presentes, sino que, además, puede segmentar para captar la atención de un conjunto determinado de personas, o incluso de transmitir a los presentes una serie de valores, pasando de una simple información a la generación de emociones y sensaciones, lo que es otra forma de transferencia de los objetivos de un evento. 
@@ -452,7 +452,7 @@
           .col-lg-3.col-md-5.col-5.mb-4
             img(src='@/assets/curso/temas/tema1/tab1-1.png', alt='')
           .col-lg-7.col-md-12.col-sm-12
-            p Evento itinerante que va a permitir una mejor visibilidad de marca mediante una acción de marketing, que se fundamenta en el entretenimiento, y que se puede llevar a cabo en diferentes zonas geográficas, todo con el objetivo de promocionar la marca en estos lugares atrayendo de esta forma más clientes.Los tapones son el tipo de cierre por excelencia. Se encuentran en una amplia variedad de envases, como botellas, frascos, viales y tarros. Esta categoría es muy diversa y comprende numerosos tipos de cierres.
+            p Evento itinerante que va a permitir una mejor visibilidad de marca mediante una acción de #[em marketing], que se fundamenta en el entretenimiento, y que se puede llevar a cabo en diferentes zonas geográficas, todo con el objetivo de promocionar la marca en estos lugares atrayendo de esta forma más clientes.Los tapones son el tipo de cierre por excelencia. Se encuentran en una amplia variedad de envases, como botellas, frascos, viales y tarros. Esta categoría es muy diversa y comprende numerosos tipos de cierres.
       .py-3.py-md-4.px-3(titulo="Aniversarios de empresa")
         .row.justify-content-center
           .col-lg-3.col-md-5.col-5.mb-4

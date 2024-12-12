@@ -11,7 +11,7 @@
       .col-lg-8.col-md-12.col-sm-12
         p Es el grupo de instrumentos de comunicación que usa la empresa de forma masiva o personalizada para hacer promoción de una marca, producto o servicio, con el fin de llamar la atención del público objetivo al que van dirigidos (Wolters, 2021).
         .cajon.color-acento-contenido.p-4.mb-4
-          p La comunicación es uno de los cuatro instrumentos básicos del mercadeo, que se clasifican tradicionalmente en publicidad, relaciones públicas, promoción de ventas y venta personal. En la actualidad se han sumado otras dos, el #[em buzz marketing] o el #[em marketing]  experiencial. Por eso, hoy se suele hablar de comunicación 360º o Comunicación Integrada de #[em Marketing] (CIM). La idea es que ayude a lograr los objetivos de marketing a través de la comunicación, buscando la eficacia en las estrategias y su respectivo plan de acción, conociendo lo mejor posible al cliente objetivo e impactándolo a través de todos los medios que sean posibles (según el músculo financiero de la marca) y con una estrategia envolvente.
+          p La comunicación es uno de los cuatro instrumentos básicos del mercadeo, que se clasifican tradicionalmente en publicidad, relaciones públicas, promoción de ventas y venta personal. En la actualidad se han sumado otras dos, el #[em buzz marketing] o el #[em marketing]  experiencial. Por eso, hoy se suele hablar de comunicación 360º o Comunicación Integrada de #[em Marketing] (CIM). La idea es que ayude a lograr los objetivos de #[em marketing] a través de la comunicación, buscando la eficacia en las estrategias y su respectivo plan de acción, conociendo lo mejor posible al cliente objetivo e impactándolo a través de todos los medios que sean posibles (según el músculo financiero de la marca) y con una estrategia envolvente.
       .col-lg-4.col-md-6.col-6
         img(src='@/assets/curso/temas/tema3/img1.png', alt='')
 
@@ -260,7 +260,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-8.col-md-12.col-sm-12
         .cajon.color-primario.p-4.mb-4
-          p.p-3 Por eso, la estrategia de marketing que se relaciona con el envío de las muestras gratis debe estar bien pensada porque no se trata de enviar cualquier objeto. Se trata de cuidar muy bien la imagen de la marca eligiendo muy bien el artículo de regalo para generar un impacto significativo en el cliente.  
+          p.p-3 Por eso, la estrategia de #[em marketing] que se relaciona con el envío de las muestras gratis debe estar bien pensada porque no se trata de enviar cualquier objeto. Se trata de cuidar muy bien la imagen de la marca eligiendo muy bien el artículo de regalo para generar un impacto significativo en el cliente.  
 
     .row.justify-content-center.align-items-center
       .col-lg-12.col-md-12.col-sm-12

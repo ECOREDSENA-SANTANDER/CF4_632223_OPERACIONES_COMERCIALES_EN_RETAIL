@@ -209,7 +209,7 @@
         p Silva. (2020), afirma que, en un mundo donde la transformación digital se ha acelerado, y con un mercado sellado por una competencia extrema, se hace vital que toda marca cuente con una estrategia comercial de ventas que se centre en la satisfacción de los clientes.
         p Si la marca desea suministrar la mejor experiencia a los clientes, requiere tener una estrategia comercial bien diseñada, la cual enlace con el consumidor y lo motive no solo a comprar, sino a formar parte de la “tribu” de marca, es decir, conjunto de personas que están identificados con un producto, compartiendo ciertos argumentos y teniendo nociones parecidas sobre la marca.
         .cajon.color-primario.p-4
-          p Hoy en día, en pleno siglo XXI, contar con una estrategia comercial es cuestión de supervivencia. Aproximadamente el 80% de las compañías que no diseñan nuevas estrategias de marketing y ventas desaparecen del mercado. 
+          p Hoy en día, en pleno siglo XXI, contar con una estrategia comercial es cuestión de supervivencia. Aproximadamente el 80 % de las compañías que no diseñan nuevas estrategias de #[em marketing] y ventas desaparecen del mercado. 
 
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-8.col-md-12.col-sm-12
@@ -243,7 +243,7 @@
         h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Principios de la estrategia comercial de ventas
         img.icon(src='@/assets/curso/temas/icon.svg') 
 
-    p.mb-4 Las premisas permiten la creación de las condiciones previas para el diseño y ejecución de la estrategia comercial de ventas: Por su lado, los principios son reglas sagradas que se deben cumplir para que la estrategia marche .
+    p.mb-4 Las premisas permiten la creación de las condiciones previas para el diseño y ejecución de la estrategia comercial de ventas: Por su lado, los principios son reglas sagradas que se deben cumplir para que la estrategia marche.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.col-md-12.col-col-sm-12
@@ -273,7 +273,7 @@
         h3.col.px-4.mb-0.mx-5.text-white(data-aos="zoom-in-left") Tipos de estrategia comercial de ventas
         img.icon(src='@/assets/curso/temas/icon.svg') 
 
-    p.mb-4 Lo primero que se debe hacer es diferenciar qué es estrategia comercial de ventas y qué es estrategia de marketing, ya que no tienen el mismo fin. La estrategia de marketing se orienta en la generación de oportunidades en el mercado, mientras que la estrategia comercial de ventas se aprovecha de estas oportunidades para lograr la rentabilidad empresarial.
+    p.mb-4 Lo primero que se debe hacer es diferenciar qué es estrategia comercial de ventas y qué es estrategia de #[em marketing], ya que no tienen el mismo fin. La estrategia de #[em marketing] se orienta en la generación de oportunidades en el mercado, mientras que la estrategia comercial de ventas se aprovecha de estas oportunidades para lograr la rentabilidad empresarial.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.col-md-12.col-sm-12
